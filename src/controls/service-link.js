@@ -1,6 +1,5 @@
 import * as React from 'react';
-var styles = {};//require('./service-link.scss');
-var classNames = require('classnames');
+import './service-link.scss';
 
 // export interface ServiceLinkProps {
 //   title: string;
@@ -14,7 +13,7 @@ export class ServiceLink extends React.Component {
     const { title, description, duration, prices } = this.props;
 
     return (
-      <div className={classNames(styles.serviceLink)}>
+      <div className="service-link">
         <h1>{title}</h1>
         <h2>{duration}</h2>
         <div>

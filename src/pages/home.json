@@ -1,7 +1,8 @@
 [
   {
     "href": "/milestones",
-    "image": "milestones",
+    "image": "services",
+    "_image": "milestones",
     "title": "MILESTONES",
     "subTitles": [
       "FOUNDATION.",

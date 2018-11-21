@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { PageLink } from '../controls/page-link';
 import { images } from '../images';
+import './../main.scss';
 var milestones = require('./milestones.json');
-var styles = {};//require('./../main.scss');
 var classNames = require('classnames');
 
 export class Milestones extends React.Component {
@@ -18,7 +18,7 @@ export class Milestones extends React.Component {
     ));
 
     return (
-      <div className={classNames(styles.content, styles.column)}>{pageLinks}</div>
+      <div className={classNames("content", "column")}>{pageLinks}</div>
     );
   }
 }

@@ -1,6 +1,5 @@
 import * as React from 'react';
-var styles = {};//require('./page-link.scss');
-var classNames = require('classnames');
+import './page-link.scss';
 
 // export interface PageLinkProps {
 //   href: string;
@@ -15,7 +14,7 @@ export class PageLink extends React.Component {
     const { href, image, subTitle } = this.props;
 
     return (
-      <a href={href} className={classNames(styles.pageLink)}>
+      <a href={href} className="page-link">
         <img src={image} alt='' />
         <div>
           {this.renderTitle()}
@@ -27,7 +26,7 @@ export class PageLink extends React.Component {
 
   renderTitle() {
     const { title, small } = this.props;
-    const className = classNames({ [styles.small]: small });
+    const className = small ? "small" : "";
     return typeof title === 'string' ?
       <h1 className={className}>{title}</h1> :
       title.map((t, i) => <h1 key={i} className={className}>{t}</h1>);

@@ -1,6 +1,6 @@
 import * as React from 'react';
-var pageStyles = {};//require('./page.scss');
-var mainStyles = {};//require('./../main.scss');
+import './page.scss';
+import './../main.scss';
 var classNames = require('classnames');
 
 // export interface PageProps {
@@ -14,7 +14,7 @@ export class Page extends React.Component {
   render() {
     const { image, title, subtitle, text } = this.props;
     return (
-      <div className={classNames(mainStyles.content, mainStyles.column, pageStyles.page)}>
+      <div className={classNames("content", "column", "page")}>
         <img src={image} alt='' />
         <h1>{title}</h1>
         {subtitle ? <h2>{subtitle}</h2> : null}

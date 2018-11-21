@@ -1,6 +1,6 @@
 import * as React from 'react';
-var styles = {};//require('./testimonials.scss');
-var mainStyles = {};//require('./../main.scss');
+import './testimonials.scss';
+import './../main.scss';
 var classNames = require('classnames');
 const testimonials = require('./testimonials.json')
 
@@ -8,8 +8,8 @@ export class Testimonials extends React.Component {
   render() {
     return (
       <>
-        <h1 className={classNames(styles.page)}>TESTIMONIALS</h1>
-        <div className={classNames(mainStyles.content, mainStyles.column, styles.testimonials)}>
+        <h1 className="page">TESTIMONIALS</h1>
+        <div className={classNames("content", "column", "testimonials")}>
           {testimonials.map((testimonial, i) => <p key={i}>"{testimonial}"</p>)}
         </div>
       </>

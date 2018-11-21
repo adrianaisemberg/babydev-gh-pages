@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { ServiceLink } from '../controls/service-link';
+import './../main.scss';
 var services = require('./services.json');
-var styles = {};//require('./../main.scss');
 var classNames = require('classnames');
 
 export class Services extends React.Component {
@@ -17,7 +17,7 @@ export class Services extends React.Component {
     ));
 
     return (
-      <div className={classNames(styles.content, styles.column)}>{serviceLink}</div>
+      <div className={classNames("content", "column")}>{serviceLink}</div>
     );
   }
 }
