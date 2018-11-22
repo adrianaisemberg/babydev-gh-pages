@@ -26,7 +26,7 @@ export class Header extends React.Component {
   render() {
     return (
       <header>
-        <a className="logo" href='/'>BabyDev</a>
+        <div className="logo"/>
         <label id="hamburger" onClick={() => this.toggleMenu()} />
         <nav className={this.state.collapsed ? null : "expanded"}>
           <ul>
