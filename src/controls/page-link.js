@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom'
 import './page-link.scss';
 
 // export interface PageLinkProps {
@@ -14,13 +15,13 @@ export class PageLink extends React.Component {
     const { href, image, subTitle } = this.props;
 
     return (
-      <a href={href} className="page-link">
+      <Link to={href} className="page-link">
         <img src={image} alt='' />
         <div>
           {this.renderTitle()}
           {subTitle ? <h2>{subTitle}</h2> : null}
         </div>
-      </a>
+      </Link>
     )
   }
 
