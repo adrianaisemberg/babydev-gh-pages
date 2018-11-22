@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/babydev-gh-pages/static/media/milestones.d09166fb.jpg"
   },
   {
-    "revision": "b9fd810c6bd791fd55f5",
-    "url": "/babydev-gh-pages/static/css/main.63409914.chunk.css"
+    "revision": "06b74ffe0e6b1655c106",
+    "url": "/babydev-gh-pages/static/css/main.0d9dca7e.chunk.css"
   },
   {
-    "revision": "cb19dc4a05d03a4fee03",
-    "url": "/babydev-gh-pages/static/js/1.cb19dc4a.chunk.js"
+    "revision": "9090e59d8fa2980d8265",
+    "url": "/babydev-gh-pages/static/js/1.9090e59d.chunk.js"
   },
   {
     "revision": "4c236f09eff300d60361",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/babydev-gh-pages/static/media/logo_625x242.5da3a02b.png"
   },
   {
-    "revision": "b9fd810c6bd791fd55f5",
-    "url": "/babydev-gh-pages/static/js/main.b9fd810c.chunk.js"
+    "revision": "06b74ffe0e6b1655c106",
+    "url": "/babydev-gh-pages/static/js/main.06b74ffe.chunk.js"
   },
   {
     "revision": "bf383ea11d9216ecfdf27555cef29a35",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/babydev-gh-pages/static/media/about-me.3c074ae1.jpg"
   },
   {
-    "revision": "844cda30971c1e962b696ba35e8ac563",
+    "revision": "0031d63de26ef3d771c088ad7f05688e",
     "url": "/babydev-gh-pages/index.html"
   }
 ];
