@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/babydev-gh-pages/static/media/about-me.3c074ae1.jpg"
   },
   {
-    "revision": "0031d63de26ef3d771c088ad7f05688e",
+    "revision": "ff0a2de1d8a963e03b8193923224b59e",
     "url": "/babydev-gh-pages/index.html"
   }
 ];
