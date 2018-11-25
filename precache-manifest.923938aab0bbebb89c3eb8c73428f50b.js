@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/babydev-gh-pages/static/media/milestones.d09166fb.jpg"
   },
   {
-    "revision": "19a8b3989946e430cc40",
+    "revision": "eaf0bdfba8cd501481ac",
     "url": "/babydev-gh-pages/static/css/main.2d1f54f5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/babydev-gh-pages/static/media/logo_625x242.5da3a02b.png"
   },
   {
-    "revision": "19a8b3989946e430cc40",
-    "url": "/babydev-gh-pages/static/js/main.19a8b398.chunk.js"
+    "revision": "eaf0bdfba8cd501481ac",
+    "url": "/babydev-gh-pages/static/js/main.eaf0bdfb.chunk.js"
   },
   {
     "revision": "bf383ea11d9216ecfdf27555cef29a35",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/babydev-gh-pages/static/media/about-me.3c074ae1.jpg"
   },
   {
-    "revision": "557f01a5b1e9516b9692b95cee4fb356",
+    "revision": "2882914f2a21b6457c7db95c2f723aa4",
     "url": "/babydev-gh-pages/index.html"
   }
 ];
