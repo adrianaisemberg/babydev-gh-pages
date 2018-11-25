@@ -1,7 +1,7 @@
 {
-  "main.css": "/babydev-gh-pages/static/css/main.2d1f54f5.chunk.css",
-  "main.js": "/babydev-gh-pages/static/js/main.7868218b.chunk.js",
-  "main.js.map": "/babydev-gh-pages/static/js/main.7868218b.chunk.js.map",
+  "main.css": "/babydev-gh-pages/static/css/main.40ecd22f.chunk.css",
+  "main.js": "/babydev-gh-pages/static/js/main.7eb36cd5.chunk.js",
+  "main.js.map": "/babydev-gh-pages/static/js/main.7eb36cd5.chunk.js.map",
   "static/js/1.40f99fbc.chunk.js": "/babydev-gh-pages/static/js/1.40f99fbc.chunk.js",
   "static/js/1.40f99fbc.chunk.js.map": "/babydev-gh-pages/static/js/1.40f99fbc.chunk.js.map",
   "runtime~main.js": "/babydev-gh-pages/static/js/runtime~main.4c236f09.js",
@@ -12,8 +12,8 @@
   "static/media/method.jpg": "/babydev-gh-pages/static/media/method.64641f54.jpg",
   "static/media/about-me.jpg": "/babydev-gh-pages/static/media/about-me.3c074ae1.jpg",
   "static/media/milestones.jpg": "/babydev-gh-pages/static/media/milestones.d09166fb.jpg",
-  "static/css/main.2d1f54f5.chunk.css.map": "/babydev-gh-pages/static/css/main.2d1f54f5.chunk.css.map",
+  "static/css/main.40ecd22f.chunk.css.map": "/babydev-gh-pages/static/css/main.40ecd22f.chunk.css.map",
   "index.html": "/babydev-gh-pages/index.html",
-  "precache-manifest.fdb4d86406d5bced3392c25b91238927.js": "/babydev-gh-pages/precache-manifest.fdb4d86406d5bced3392c25b91238927.js",
+  "precache-manifest.b1c480302427055652e20c1294e73deb.js": "/babydev-gh-pages/precache-manifest.b1c480302427055652e20c1294e73deb.js",
   "service-worker.js": "/babydev-gh-pages/service-worker.js"
 }
