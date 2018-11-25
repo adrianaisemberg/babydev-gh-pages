@@ -37,5 +37,17 @@
 
   @media (max-width: $max-mobile-width) {
     margin: 0 8px;
+
+    h1 {
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 16px;
+    }
+
+    img {
+      width: 30%;
+    }
   }
 }
