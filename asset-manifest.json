@@ -1,9 +1,9 @@
 {
   "main.css": "/babydev-gh-pages/static/css/main.2d1f54f5.chunk.css",
-  "main.js": "/babydev-gh-pages/static/js/main.eaf0bdfb.chunk.js",
-  "main.js.map": "/babydev-gh-pages/static/js/main.eaf0bdfb.chunk.js.map",
-  "static/js/1.9090e59d.chunk.js": "/babydev-gh-pages/static/js/1.9090e59d.chunk.js",
-  "static/js/1.9090e59d.chunk.js.map": "/babydev-gh-pages/static/js/1.9090e59d.chunk.js.map",
+  "main.js": "/babydev-gh-pages/static/js/main.7868218b.chunk.js",
+  "main.js.map": "/babydev-gh-pages/static/js/main.7868218b.chunk.js.map",
+  "static/js/1.40f99fbc.chunk.js": "/babydev-gh-pages/static/js/1.40f99fbc.chunk.js",
+  "static/js/1.40f99fbc.chunk.js.map": "/babydev-gh-pages/static/js/1.40f99fbc.chunk.js.map",
   "runtime~main.js": "/babydev-gh-pages/static/js/runtime~main.4c236f09.js",
   "runtime~main.js.map": "/babydev-gh-pages/static/js/runtime~main.4c236f09.js.map",
   "static/media/header.scss": "/babydev-gh-pages/static/media/logo_625x242.5da3a02b.png",
@@ -14,6 +14,6 @@
   "static/media/milestones.jpg": "/babydev-gh-pages/static/media/milestones.d09166fb.jpg",
   "static/css/main.2d1f54f5.chunk.css.map": "/babydev-gh-pages/static/css/main.2d1f54f5.chunk.css.map",
   "index.html": "/babydev-gh-pages/index.html",
-  "precache-manifest.923938aab0bbebb89c3eb8c73428f50b.js": "/babydev-gh-pages/precache-manifest.923938aab0bbebb89c3eb8c73428f50b.js",
+  "precache-manifest.fdb4d86406d5bced3392c25b91238927.js": "/babydev-gh-pages/precache-manifest.fdb4d86406d5bced3392c25b91238927.js",
   "service-worker.js": "/babydev-gh-pages/service-worker.js"
 }
