@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom'
 import { App } from './app';
 import * as serviceWorker from './serviceWorker';
 
 if (typeof document !== 'undefined') {
   ReactDOM.render(
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <App />
-    </BrowserRouter>,
+    </HashRouter>,
     document.getElementById('root')
   );
 }
