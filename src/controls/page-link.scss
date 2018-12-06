@@ -1,49 +1,51 @@
 @import './../vars.scss';
 
 .page-link {
-  font-size: 1em;
   text-decoration: none;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  margin: 4px;
-  padding: 8px;
+  margin: 1px;
+  padding: 1px;
   transition: background-color 0.5s ease-in-out;
-  color: $color-blue-1;
+  color: $color-gray-1;
 
   &:hover {
     background: $color-blue-1-a10;
   }
   
+  .page-link-text {
+    margin-top: 4px;
+  }
+
   img {
     width: 20%;
     height: 100%;
-    margin-right: 16px;
+    margin-right: 8px;
   }
 
   h1 {
+    font-size: 18px;
     margin: 0;
     color: $color-blue-1;
 
     &.small {
-      font-size: 1.6em;
+      font-size: 12px;
     }
   }
 
   h2 {
+    font-size: 16px;
     margin: 0;
     opacity: 0.5;
   }
 
   @media (max-width: $max-mobile-width) {
-    margin: 0 8px;
-
     h1 {
-      font-size: 20px;
+      font-size: 16px;
     }
 
     h2 {
-      font-size: 16px;
+      font-size: 14px;
     }
 
     img {

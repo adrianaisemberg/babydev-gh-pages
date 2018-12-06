@@ -17,7 +17,7 @@ export class PageLink extends React.Component {
     return (
       <Link to={href} className="page-link">
         <img src={image} alt='' />
-        <div>
+        <div className='page-link-text'>
           {this.renderTitle()}
           {subTitle ? <h2>{subTitle}</h2> : null}
         </div>
