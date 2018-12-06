@@ -5,24 +5,22 @@ var classNames = require('classnames');
 
 export class Contact extends React.Component {
   render() {
-    const gotchaStyle = {display:'none'};
     return (
       <div className={classNames("content", "column")}>
-        <form action='https://formspree.io/adrianaisemberg@gmail.com' method='POST'>
+        <form action='https://formspree.io/lilachberko@gmail.com' method='POST'>
           <input type="hidden" name="_subject" value="BabyDevStudio Contact" />
-          {/* <input type="hidden" name="_cc" value="adrianaisemberg@email.com" /> */}
-          {/* <input type="text" name="_gotcha" style={gotchaStyle} /> */}
+          <input type="hidden" name="_cc" value="adrianaisemberg@email.com" />
           <div className="input">
             <label htmlFor='form.name'>Name:</label>
             <div><input type='text' name='name' id='form.name' /></div>
           </div>
           <div className="input">
             <label htmlFor='form.email'>Email:</label>
-            <div><input type='email' name='_replyto' id='form.email' /></div>
+            <div><input type='email' name='email' id='form.email' /></div>
           </div>
           <div className="input">
             <label htmlFor='form.phone'>Phone:</label>
-            <div><input type='tel' name='_replyto' id='form.phone' /></div>
+            <div><input type='tel' id='form.phone' /></div>
           </div>
           <div className="input">
             <label htmlFor='form.text'>Message:</label>
