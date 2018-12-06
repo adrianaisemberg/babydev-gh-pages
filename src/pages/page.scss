@@ -11,7 +11,7 @@
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 34px;
     position: sticky;
     top: 0;
     color: white;
@@ -20,12 +20,12 @@
     text-transform: uppercase;
 
     @media (max-width: $max-mobile-width) {
-      font-size: 1.6em;
+      font-size: 24px;
     }
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 18px;
   }
 
   img {
@@ -36,7 +36,7 @@
 
   p {
     text-align: justify;
-    font-size: 1.1em;
+    font-size: 18px;
     margin: 24px auto;
 
     @media (max-width: $max-mobile-width) {

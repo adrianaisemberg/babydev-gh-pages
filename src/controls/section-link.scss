@@ -1,7 +1,6 @@
 @import './../vars.scss';
 
 .section-link {
-  font-size: 1.6em;
   font-weight: 700;
   text-decoration: none;
   display: flex;
@@ -61,6 +60,7 @@
   }
 
   h1 {
+    font-size: 50px;
     width: 39%;
     margin: 0;
     text-align: center;
