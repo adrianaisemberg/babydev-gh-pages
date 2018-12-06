@@ -9,7 +9,7 @@ export class Contact extends React.Component {
       <div className={classNames("content", "column")}>
         <form action='https://formspree.io/lilachberko@gmail.com' method='POST'>
           <input type="hidden" name="_subject" value="BabyDevStudio Contact" />
-          <input type="hidden" name="_cc" value="adrianaisemberg@email.com" />
+          <input type="hidden" name="_cc" value="adrianaisemberg@gmail.com" />
           <div className="input">
             <label htmlFor='form.name'>Name:</label>
             <div><input type='text' name='name' id='form.name' /></div>
