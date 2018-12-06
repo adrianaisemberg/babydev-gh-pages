@@ -28,6 +28,7 @@ export class Header extends React.Component {
       <header>
         <div className="logo"/>
         <label id="hamburger" onClick={() => this.toggleMenu()} />
+        <div id="hamburger-background" className={this.state.collapsed ? null : "expanded"}></div>
         <nav className={this.state.collapsed ? null : "expanded"}>
           <ul>
             <li><NavLink onClick={() => this.collapseMenu()} exact={true} to='/' activeClassName="active">Home</NavLink></li>

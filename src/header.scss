@@ -115,9 +115,22 @@ header {
       display: none;
     }
   }
-
+  
   // mobile
   @media (max-width: $max-mobile-width) {
+    #hamburger-background {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: #333333cc;
+      z-index: 1;
+      display: none;
+
+      &.expanded {
+        display: initial;
+      }
+    }
+
     nav {
       background: #fafafa;
       position: absolute;
