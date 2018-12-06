@@ -11,7 +11,7 @@ export class Contact extends React.Component {
         <form action='https://formspree.io/adrianaisemberg@gmail.com' method='POST'>
           <input type="hidden" name="_subject" value="BabyDevStudio Contact" />
           {/* <input type="hidden" name="_cc" value="adrianaisemberg@email.com" /> */}
-          <input type="text" name="_gotcha" style={gotchaStyle} />
+          {/* <input type="text" name="_gotcha" style={gotchaStyle} /> */}
           <div className="input">
             <label htmlFor='form.name'>Name:</label>
             <div><input type='text' name='name' id='form.name' /></div>
