@@ -7,7 +7,8 @@ form {
     margin-bottom: 16px;
 
     @media (max-width: $max-mobile-width) {
-      width: 80%;
+      margin: 16px 8px;
+      width: 90%;
     }
 
     input, textarea {
