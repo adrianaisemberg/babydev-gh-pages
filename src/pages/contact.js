@@ -8,9 +8,9 @@ export class Contact extends React.Component {
     const gotchaStyle = {display:'none'};
     return (
       <div className={classNames("content", "column")}>
-        <form action='https://formspree.io/lilachberko@gmail.com' method='POST'>
+        <form action='https://formspree.io/adrianaisemberg@gmail.com' method='POST'>
           <input type="hidden" name="_subject" value="BabyDevStudio Contact" />
-          <input type="hidden" name="_cc" value="adrianaisemberg@email.com" />
+          {/* <input type="hidden" name="_cc" value="adrianaisemberg@email.com" /> */}
           <input type="text" name="_gotcha" style={gotchaStyle} />
           <div className="input">
             <label htmlFor='form.name'>Name:</label>
