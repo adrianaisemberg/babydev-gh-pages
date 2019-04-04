@@ -4,12 +4,12 @@
 
 export const texts = {
   'about': require('./texts/about.json'),
-  'coming_home': require('./texts/about.json'),
-  'welcome_new_world': require('./texts/about.json'),
-  'rolling': require('./texts/about.json'),
-  'army_crawl': require('./texts/about.json'),
-  'crawling': require('./texts/about.json'),
-  'sitting_independently': require('./texts/about.json'),
-  'standing': require('./texts/about.json'),
-  'walking_independently': require('./texts/about.json'),
+  'be-prepared': require('./texts/be-prepared.json'),
+  'welcome-new-world': require('./texts/welcome-new-world.json'),
+  'rolling': require('./texts/rolling.json'),
+  'army-crawl': require('./texts/army-crawl.json'),
+  'crawling': require('./texts/crawling.json'),
+  'sitting-independently': require('./texts/sitting-independently.json'),
+  'standing': require('./texts/standing.json'),
+  'walking-independently': require('./texts/walking-independently.json'),
 }

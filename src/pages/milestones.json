@@ -1,58 +1,58 @@
 [
   {
-    "href": "coming_home",
+    "href": "be-prepared",
     "image": "about-me",
-    "title": "Coming Home - Be Prepared",
-    "subTitle": "Parents who want to know ...",
-    "text": "about"
+    "title": "Be prepared - Pre-Birth",
+    "subTitle": "Parents who want to know what to do in advance, Pre-Birth!",
+    "text": "be-prepared"
   },
   {
-    "href": "welcome_new_world",
+    "href": "welcome-new-world",
     "image": "about-me",
     "title": "Welcome New World",
-    "subTitle": "Babies ages ...",
-    "text": "about"
+    "subTitle": "Babies ages 0-4 months, Birth to Pre-Rolling!",
+    "text": "welcome-new-world"
   },
   {
     "href": "rolling",
     "image": "about-me",
     "title": "Rolling",
-    "subTitle": "Babies ages ...",
-    "text": "about"
+    "subTitle": "Babies ages 4-7 months, Pre-Rolling to Rolling!",
+    "text": "rolling"
   },
   {
-    "href": "army_crawl",
+    "href": "army-crawl",
     "image": "about-me",
     "title": "Army Crawl",
-    "subTitle": "Babies ages ...",
-    "text": "about"
+    "subTitle": "Babies ages 5-8 months, Rolling to Army crawl!",
+    "text": "army-crawl"
   },
   {
     "href": "crawling",
     "image": "about-me",
     "title": "Crawling",
-    "subTitle": "Babies ages ...",
-    "text": "about"
+    "subTitle": "Babies ages 6-10 months, Rolling/Army Crawl to Crawling!",
+    "text": "crawling"
   },
   {
-    "href": "sitting_independently",
+    "href": "sitting-independently",
     "image": "about-me",
     "title": "Sitting Independently",
-    "subTitle": "Babies ages ...",
-    "text": "about"
+    "subTitle": "Babies ages 8-11 months, Crawling to Sitting Independently!",
+    "text": "sitting-independently"
   },
   {
     "href": "standing",
     "image": "about-me",
     "title": "Standing",
-    "subTitle": "Babies ages ...",
-    "text": "about"
+    "subTitle": "Babies ages 8-11 months, Sitting Independently to Standing!",
+    "text": "standing"
   },
   {
-    "href": "walking_independently",
+    "href": "walking-independently",
     "image": "about-me",
     "title": "Walking Independently",
-    "subTitle": "Babies ages ...",
-    "text": "about"
+    "subTitle": "Babies agas 10-15 months, Standing to Walking Independently!",
+    "text": "walking-independently"
   }
 ]

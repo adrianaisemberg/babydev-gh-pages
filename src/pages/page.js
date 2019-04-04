@@ -3,13 +3,6 @@ import './page.scss';
 import './../main.scss';
 var classNames = require('classnames');
 
-// export interface PageProps {
-//   image: string;
-//   title: string;
-//   subtitle?: string;
-//   text: string[];
-// }
-
 export class Page extends React.Component {
   render() {
     const { image, title, subtitle, text } = this.props;
@@ -18,8 +11,41 @@ export class Page extends React.Component {
         <img src={image} alt='' />
         <h1>{title}</h1>
         {subtitle ? <h2>{subtitle}</h2> : null}
-        {text.map((t, i) => <p key={i}>{t}</p>)}
+        {text.map((t, i) => {
+          return <div key={i}>{this.renderContent(t)}</div>
+        })}
       </div>
+    );
+  }
+
+  renderContent(content) {
+    return (
+      <>
+        <h4>{content.header}</h4>
+        {content.content.map((c, i) => {
+          if (c.text) {
+            return <p key={i} dangerouslySetInnerHTML={{ __html: c.text }} />
+          }
+
+          if (c.ul) {
+            return <ul>
+              {c.ul.map((li, i) => {
+                return <li key={i}>{li}</li>
+              })}
+            </ul>
+          }
+
+          if (c.ol) {
+            return <ol>
+              {c.ol.map((li, i) => {
+                return <li key={i}>{li}</li>
+              })}
+            </ol>
+          }
+
+          return null;
+        })}
+      </>
     );
   }
 }
