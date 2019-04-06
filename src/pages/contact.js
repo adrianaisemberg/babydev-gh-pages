@@ -12,14 +12,18 @@ export class Contact extends React.Component {
           <input type="hidden" name="_cc" value="adrianaisemberg@gmail.com" />
           <div className="input">
             <label htmlFor='form.name'>Name</label>
-            <div><input type='text' name='name' id='form.name' /></div>
+            <div><input type='text' name='Name' id='form.name' /></div>
           </div>
           <div className="input">
             <label htmlFor='form.email'>Email</label>
-            <div><input type='email' name='email' id='form.email' /></div>
+            <div><input type='email' name='Email' id='form.email' /></div>
           </div>
           <div className="input">
-            <label htmlFor='form.text'>Message (please include your phone number)</label>
+            <label htmlFor='form.tel'>Telephone</label>
+            <div><input type='tel' name='Telephone' id='form.tel' /></div>
+          </div>
+          <div className="input">
+            <label htmlFor='form.text'>Message</label>
             <div><textarea name='message' id='form.message' rows={10}/></div>
           </div>
           <div className="input">
