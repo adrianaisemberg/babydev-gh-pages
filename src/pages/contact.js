@@ -19,8 +19,8 @@ export class Contact extends React.Component {
             <div><input type='email' name='Email' id='form.email' /></div>
           </div>
           <div className="input">
-            <label htmlFor='form.tel'>Telephone</label>
-            <div><input type='tel' name='Telephone' id='form.tel' /></div>
+            <label htmlFor='form.tel'>Phone</label>
+            <div><input type='tel' name='Phone' id='form.tel' /></div>
           </div>
           <div className="input">
             <label htmlFor='form.text'>Message</label>
