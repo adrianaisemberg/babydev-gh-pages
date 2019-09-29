@@ -12,7 +12,7 @@ export class About extends React.Component {
     const cn = classNames("content", "column", "links");
     return (
       <>
-        <Page image={images['about-me']} title='LILACH AISEMBERG' text={texts['about']} />
+        <Page image={images['about-me']} title='LILACH AISEMBERG' text={texts['about']} subtitle="Do what you love, love what you do"/>
         <div className={cn}>
           <h3>THE METHOD</h3>
           <PageLink small={true} href='/pages/teach_support_challenge' image={images['about-me']} title={['TEACH.', 'SUPPORT.', 'CHALLENGE.']} />
