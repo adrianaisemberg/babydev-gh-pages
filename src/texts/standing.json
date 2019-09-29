@@ -6,10 +6,13 @@
         "text": "Standing on two feet is the stage that for the first time the baby needs to deal with gravity on a small base (2 legs) not like in the former milestones where the base was wide."
       },
       {
-        "text": "Standing is based on all the former milestones that the infant experiences."
+        "text": "Standing is based on all the former milestones that the infant experiences. There are two ways to stand correctly:"
       },
       {
-        "text": "There are two ways to stand correctly:  from  kneeling , coming up foot by foot  to standing or from squatting with both legs and stand up without any help."
+        "ol": [
+          "From kneeling , coming up foot by foot to standing.",
+          "From squatting with both legs and stand up without any help."
+        ]
       }
     ]
   },
@@ -17,7 +20,7 @@
     "header": "Why is this stage important?",
     "content": [
       {
-        "text": "Preparing the body for walking by using the balance ability of small base - standing on two feet instead of crawling (6 points of touch with the surface) or seating (both arms and legs) that they are a wide base."
+        "text": "Preparing the body for walking by using the balance ability of small base - standing on two feet instead of crawling (6 points of contact with the surface) or seating (both arms and legs) that they are a wide base."
       },
       {
         "text": "Learning to carry the weight of the body on 2 feet and balance between the upper and lower body."
@@ -28,17 +31,17 @@
     "header": "Things to pay attention to...",
     "content": [
       {
-        "text": "If  you are seeing that your baby is having a hard time achieving the specific milestones described  below or  is at the age of 11 months and can’t do those things, you will  want  to consult with a pediatric or an Infant development guide in order to learn why and how to help  your baby to achieve these important abilities that are the foundation of their physical, sensory and emotional needs:"
+        "text": "If you are seeing that your baby has a hard time achieving the specific milestones described in the description or are at the age of 11 months and can’t do those things you should consult with your pediatrician or an Infant development guide in order to learn how to help your baby to achieve these important abilities that are the foundation of their physical, sensory and emotional needs:"
       },
       {
         "ul": [
-          "Unable to transfer from standing to seating by himself and supported by something, without falling",
-          "The space between two legs is too wide",
+          "Unable to transfer from standing to sitting by himself and supported by something, without falling",
+          "The space between two legs is too wide (more than the pelvic wide)",
           "The knees are locked (looks like a bear walking on two legs)",
-          "Feet are turning in or out instead of straight/Club Foot",
+          "Feet are turning in or out instead of straight (Club Foot)",
           "Standing with his back bending forward",
           "The shoulders are higher than they should be",
-          "Standing on  tiptoes most of the time"
+          "Standing on tiptoes most of the time"
         ]
       }
     ]
