@@ -23,7 +23,7 @@ export class Page extends React.Component {
         <h4>{content.header}</h4>
         {content.content.map((c, i) => {
           if (c.subtitle) {
-            return <h2>{c.subtitle}</h2>
+            return <h2 key={i}>{c.subtitle}</h2>
           }
 
           if (c.text) {
