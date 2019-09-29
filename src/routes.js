@@ -6,8 +6,10 @@ import { Services } from './pages/services';
 import { Contact } from './pages/contact';
 import { Articles } from './pages/articles';
 import { Testimonials } from './pages/testimonials';
+import { TeachSupportChallenge } from './pages/teach_support_challenge';
 import { MilestoneRoutes } from './milestone-routes';
 import { About } from './pages/about';
+import { HandsOn } from './pages/hands-on';
 
 export class Routes extends React.Component {
   render() {
@@ -21,6 +23,8 @@ export class Routes extends React.Component {
         <Route path='/contact' component={Contact} />
         <Route path='/articles' component={Articles} />
         <Route path='/testimonials' component={Testimonials} />
+        <Route path='/teach-support-challenge' component={TeachSupportChallenge} />
+        <Route path='/hands-on' component={HandsOn} />
       </Switch>
     )
   }

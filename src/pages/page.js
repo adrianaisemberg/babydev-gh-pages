@@ -5,12 +5,11 @@ var classNames = require('classnames');
 
 export class Page extends React.Component {
   render() {
-    const { image, title, subtitle, text } = this.props;
+    const { image, title, text } = this.props;
     return (
       <div className={classNames("content", "column", "page")}>
         <img src={image} alt='' />
         <h1>{title}</h1>
-        {subtitle ? <h2>{subtitle}</h2> : null}
         {text.map((t, i) => {
           return <div key={i}>{this.renderContent(t)}</div>
         })}
@@ -23,6 +22,10 @@ export class Page extends React.Component {
       <>
         <h4>{content.header}</h4>
         {content.content.map((c, i) => {
+          if (c.subtitle) {
+            return <h2>{c.subtitle}</h2>
+          }
+
           if (c.text) {
             return <p key={i} dangerouslySetInnerHTML={{ __html: c.text }} />
           }

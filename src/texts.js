@@ -12,4 +12,5 @@ export const texts = {
   'sitting-independently': require('./texts/sitting-independently.json'),
   'standing': require('./texts/standing.json'),
   'walking-independently': require('./texts/walking-independently.json'),
+  'teach-support-challenge': require('./texts/teach-support-challenge.json')
 }
