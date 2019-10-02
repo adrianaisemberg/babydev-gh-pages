@@ -32,17 +32,13 @@ export class Page extends React.Component {
 
           if (c.ul) {
             return <ul>
-              {c.ul.map((li, i) => {
-                return <li key={i}>{li}</li>
-              })}
+              {c.ul.map((li, i) => <li key={i}>{li}</li>)}
             </ul>
           }
 
           if (c.ol) {
             return <ol>
-              {c.ol.map((li, i) => {
-                return <li key={i}>{li}</li>
-              })}
+              {c.ol.map((li, i) => <li key={i}>{li}</li>)}
             </ol>
           }
 

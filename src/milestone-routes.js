@@ -10,6 +10,7 @@ export class MilestoneRoutes extends React.Component {
     var routes = milestones.map((milestone, index) => {
       var page = (
         <Page
+          key={index}
           image={images[milestone.image]}
           title={`${milestone.title}`}
           text={texts[milestone.text]}
