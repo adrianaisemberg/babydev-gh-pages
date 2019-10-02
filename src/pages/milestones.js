@@ -18,7 +18,10 @@ export class Milestones extends React.Component {
     ));
 
     return (
-      <div className={classNames("content", "column")}>{pageLinks}</div>
+      <>
+        <h1>MILESTONES</h1>
+        <div className={classNames("content", "column")}>{pageLinks}</div>
+      </>
     );
   }
 }

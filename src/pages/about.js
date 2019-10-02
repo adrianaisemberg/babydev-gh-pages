@@ -12,6 +12,7 @@ export class About extends React.Component {
     const cn = classNames("content", "column", "links");
     return (
       <>
+        <h1>ABOUT</h1>
         <Page image={images['about-me']} title='LILACH AISEMBERG' text={texts['about']} />
         <div className={cn}>
           <h3>THE METHOD</h3>

@@ -7,14 +7,14 @@
   margin: 1px;
   padding: 1px;
   transition: background-color 0.5s ease-in-out;
-  color: $color-gray-1;
+  color: $color-gray-2;
 
   &:hover {
     background: $color-gray-1-a10;
   }
   
   .page-link-text {
-    margin-top: 4px;
+    margin-top: 12px;
   }
 
   img {
@@ -27,6 +27,7 @@
     font-size: 18px;
     margin: 0;
     color: $color-blue-1;
+    margin-bottom: 4px;
 
     &.small {
       font-size: 14px;

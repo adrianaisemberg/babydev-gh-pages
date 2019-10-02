@@ -3,6 +3,13 @@
 .content {
   margin: auto;
   padding-bottom: 32px;
+
+  > h1 {
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    color: $color-blue-3;
+  }
 }
 
 .column {

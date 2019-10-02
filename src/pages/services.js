@@ -18,7 +18,10 @@ export class Services extends React.Component {
     ));
 
     return (
-      <div className={classNames("content", "column")}>{serviceLink}</div>
+      <>
+        <h1>SERVICES</h1>
+        <div className={classNames("content", "column")}>{serviceLink}</div>
+      </>
     );
   }
 }

@@ -1,8 +1,12 @@
 @import './vars.scss';
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300&display=swap');
 
 body {
   margin: auto;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'merriweather', sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  // font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #root {

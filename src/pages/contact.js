@@ -7,6 +7,7 @@ export class Contact extends React.Component {
   render() {
     return (
       <div className={classNames("content", "column")}>
+        <h1>CONTACT</h1>
         <form action='https://formspree.io/lilachberko@gmail.com' method='POST'>
           <input type="hidden" name="_subject" value="BabyDevStudio Contact" />
           <input type="hidden" name="_cc" value="adrianaisemberg@gmail.com" />
@@ -24,7 +25,7 @@ export class Contact extends React.Component {
           </div>
           <div className="input">
             <label htmlFor='form.text'>Message</label>
-            <div><textarea name='message' id='form.message' rows={10}/></div>
+            <div><textarea name='message' id='form.message' rows={10} /></div>
           </div>
           <div className="input">
             <input type='submit' value='Send' />
