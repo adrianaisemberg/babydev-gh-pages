@@ -14,11 +14,11 @@ export class Contact extends React.Component {
           <input type="hidden" name="_cc" value="adrianaisemberg@gmail.com" />
           <div className="input">
             <label htmlFor='form.name'>Name</label>
-            <div><input type='text' name='Name' id='form.name' /></div>
+            <div><input type='text' name='Name' id='form.name' required/></div>
           </div>
           <div className="input">
             <label htmlFor='form.email'>Email</label>
-            <div><input type='email' name='Email' id='form.email' /></div>
+            <div><input type='email' name='Email' id='form.email' required/></div>
           </div>
           <div className="input">
             <label htmlFor='form.tel'>Phone</label>
@@ -34,12 +34,5 @@ export class Contact extends React.Component {
         </form>
       </div>
     );
-  }
-
-  validate() {
-    // TODO
-    var form = document.forms['contact']
-    if (form['Name'].value === '') return false
-    if (form['Email'].value === '' || form['Email'].value === '') return false
   }
 }
