@@ -9,7 +9,7 @@ export class Contact extends React.Component {
     return (
       <div className={classNames("content", "column")}>
         <h1>CONTACT</h1>
-        <form action='https://formspree.io/lilachberko@gmail.com' method='POST'>
+        <form name='contact' action='https://formspree.io/lilachberko@gmail.com' method='POST'>
           <input type="hidden" name="_subject" value="BabyDevStudio Contact" />
           <input type="hidden" name="_cc" value="adrianaisemberg@gmail.com" />
           <div className="input">
@@ -34,5 +34,12 @@ export class Contact extends React.Component {
         </form>
       </div>
     );
+  }
+
+  validate() {
+    // TODO
+    var form = document.forms['contact']
+    if (form['Name'].value === '') return false
+    if (form['Email'].value === '' || form['Email'].value === '') return false
   }
 }
