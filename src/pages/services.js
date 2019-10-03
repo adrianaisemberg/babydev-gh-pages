@@ -6,6 +6,7 @@ var classNames = require('classnames');
 
 export class Services extends React.Component {
   render() {
+    window.scrollTo(0, 0)
     var serviceLink = services.map((service, index) => (
       <ServiceLink
         key={index}

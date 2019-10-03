@@ -5,6 +5,7 @@ var classNames = require('classnames');
 
 export class Contact extends React.Component {
   render() {
+    window.scrollTo(0, 0)
     return (
       <div className={classNames("content", "column")}>
         <h1>CONTACT</h1>

@@ -7,6 +7,7 @@ var classNames = require('classnames');
 
 export class Milestones extends React.Component {
   render() {
+    window.scrollTo(0, 0)
     var pageLinks = milestones.map((milestone, index) => (
       <PageLink
         key={index}

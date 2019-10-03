@@ -6,7 +6,7 @@ import { Services } from './pages/services';
 import { Contact } from './pages/contact';
 import { Articles } from './pages/articles';
 import { Testimonials } from './pages/testimonials';
-import { TeachSupportChallenge } from './pages/teach_support_challenge';
+import { TeachSupportChallenge } from './pages/teach-support-challenge';
 import { MilestoneRoutes } from './milestone-routes';
 import { About } from './pages/about';
 import { HandsOn } from './pages/hands-on';

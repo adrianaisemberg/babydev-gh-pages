@@ -9,6 +9,7 @@ var classNames = require('classnames');
 
 export class About extends React.Component {
   render() {
+    window.scrollTo(0, 0)
     const cn = classNames("content", "column", "links");
     return (
       <>

@@ -5,6 +5,7 @@ var sections = require('./home.json');
 
 export class Home extends React.Component {
   render() {
+    window.scrollTo(0, 0)
     return sections.map((section, index) => (
       <SectionLink
         key={index}
