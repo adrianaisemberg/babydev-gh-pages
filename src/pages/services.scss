@@ -1,17 +1,42 @@
 @import './../vars.scss';
 
-.service-header {
-  margin: 0 60px 12px 60px;
-  div {
-    color: $color-header;
-    font-size: 18px;
+.services {
+  margin: 0 80px 12px 80px;
+  
+  .service-header {
+    margin: 12px 0;
+    div {
+      color: $color-header;
+      font-size: 18px;
+    }
+  }
+  
+  .service-intro {
+    margin: 12px 0;
+    div {
+      color: $color-text;
+      font-size: 16px;
+    }
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    margin: 8px 0;
+  }
+
+  .service {
+    margin: 72px 0;
+  }
+
+  .prices {
+
   }
 }
 
-.service-intro {
-  margin: 0 60px 12px 60px;
-  div {
-    color: $color-text;
-    font-size: 16px;
-  }
-}

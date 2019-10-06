@@ -1,29 +1,24 @@
 import * as React from 'react';
 import './service-link.scss';
-
-// export interface ServiceLinkProps {
-//   title: string;
-//   description: string;
-//   duration: string;
-//   prices: string[];
-// }
+var classNames = require('classnames');
 
 export class ServiceLink extends React.Component {
   render() {
-    const { title, subtitle, description, duration, prices } = this.props;
+    const { title, subtitle, description, duration, prices, notes } = this.props;
 
     return (
-      <div className="service-link">
+      <div className={classNames("service")}>
         <h1>{title}</h1>
+        <h2>{subtitle}</h2>
+        <ul>
+          {description.map((c, i) => <li key={i} dangerouslySetInnerHTML={{ __html: c.text }} />)}
+        </ul>
         <h2>{duration}</h2>
-        <h3>{subtitle}</h3>
-        <div>
-          {prices.map((price, i) => <p key={i}>{price}</p>)}
+        <div className={classNames("prices")}>
+          {prices.map((price, i) => <p key={i} dangerouslySetInnerHTML={{ __html: price }}/>)}
         </div>
         <div>
-          {description.map((c, i) => {
-            return <p key={i} dangerouslySetInnerHTML={{ __html: c.text }} />
-          })}
+          {notes ? notes.map((c, i) => <div key={i} dangerouslySetInnerHTML={{ __html: c.text }} />) : null}
         </div>
       </div>
     )

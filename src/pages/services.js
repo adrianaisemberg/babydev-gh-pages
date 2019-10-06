@@ -24,16 +24,17 @@ export class Services extends React.Component {
         description={service.description}
         duration={service.duration}
         prices={service.prices}
+        notes={service.notes}
       />
     ));
 
     return (
-      <>
+      <div className={classNames("services")}>
         <h1>SERVICES</h1>
         <div className={classNames("service-header")}>{headers}</div>
         <div className={classNames("service-intro")}>{intro}</div>
         <div className={classNames("content", "column")}>{serviceLinks}</div>
-      </>
+      </div>
     );
   }
 }
