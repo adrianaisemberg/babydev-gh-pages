@@ -29,12 +29,14 @@ export class Services extends React.Component {
     ));
 
     return (
-      <div className={classNames("services")}>
+      <>
         <h1>SERVICES</h1>
-        <div className={classNames("service-header")}>{headers}</div>
-        <div className={classNames("service-intro")}>{intro}</div>
-        <div className={classNames("content", "column")}>{serviceLinks}</div>
-      </div>
+        <div className={classNames("services")}>
+          <div className={classNames("service-header")}>{headers}</div>
+          <div className={classNames("service-intro")}>{intro}</div>
+          <div className={classNames("content", "column")}>{serviceLinks}</div>
+        </div>
+      </>
     );
   }
 }

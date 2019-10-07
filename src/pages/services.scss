@@ -25,6 +25,7 @@
 
   h2 {
     font-size: 20px;
+    margin-top: 4px;
   }
 
   p {
@@ -32,11 +33,33 @@
   }
 
   .service {
-    margin: 72px 0;
+    margin: 56px 0;
+    border: 1px solid $color-blue-1;
+    border-radius: 6px;
+  }
+
+  .service-title {
+    background: $color-blue-1;
+    border-radius: 5px 5px 0 0;
+    padding: 8px;
+
+    > div {
+      font-size: 24px;
+      color: white;
+    }
+  }
+
+  .service-content {
+    padding: 12px;
   }
 
   .prices {
 
+  }
+
+  .line {
+    height: 1px;
+    background: $color-blue-1;
   }
 }
 
