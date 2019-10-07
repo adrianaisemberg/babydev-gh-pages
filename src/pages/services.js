@@ -2,6 +2,7 @@ import * as React from 'react';
 import { ServiceLink } from '../controls/service-link';
 import './../main.scss';
 import './services.scss';
+import { Copyright } from '../copyright';
 var services = require('./services.json');
 var classNames = require('classnames');
 
@@ -36,6 +37,7 @@ export class Services extends React.Component {
           <div className={classNames("service-intro")}>{intro}</div>
           <div className={classNames("content", "column")}>{serviceLinks}</div>
         </div>
+        <Copyright/>
       </>
     );
   }

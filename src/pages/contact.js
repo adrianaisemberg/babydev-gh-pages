@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './contact.scss';
 import './../main.scss';
+import { Copyright } from '../copyright';
 var classNames = require('classnames');
 
 export class Contact extends React.Component {
@@ -32,6 +33,7 @@ export class Contact extends React.Component {
             <input type='submit' value='Send' />
           </div>
         </form>
+        <Copyright/>
       </div>
     );
   }

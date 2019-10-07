@@ -26,9 +26,9 @@ export class Header extends React.Component {
   render() {
     return (
       <header>
-        <div className="logo" onClick={() => window.location = '/'}/>
+        <div className="logo" onClick={() => window.location = '/'} />
         <label id="hamburger" onClick={() => this.toggleMenu()} />
-        <div id="hamburger-background" className={this.state.collapsed ? null : "expanded"}></div>
+        <div id="hamburger-background" className={this.state.collapsed ? null : "expanded"} onClick={() => this.toggleMenu()}></div>
         <nav className={this.state.collapsed ? null : "expanded"}>
           <ul>
             <li><NavLink onClick={() => this.collapseMenu()} exact={true} to='/' activeClassName="active">Home</NavLink></li>

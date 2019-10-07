@@ -2,6 +2,7 @@ import * as React from 'react';
 import { PageLink } from '../controls/page-link';
 import { images } from '../images';
 import './../main.scss';
+import { Copyright } from '../copyright';
 var milestones = require('./milestones.json');
 var classNames = require('classnames');
 
@@ -22,6 +23,7 @@ export class Milestones extends React.Component {
       <>
         <h1>MILESTONES</h1>
         <div className={classNames("content", "column")}>{pageLinks}</div>
+        <Copyright/>
       </>
     );
   }
