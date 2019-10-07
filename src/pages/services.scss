@@ -3,6 +3,10 @@
 .services {
   margin: 0 80px 12px 80px;
   
+  @media (max-width: $max-mobile-width) {
+    margin: 0 20px 12px 20px;
+  }
+
   .service-header {
     margin: 12px 0;
     div {
