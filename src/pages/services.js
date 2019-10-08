@@ -2,6 +2,7 @@ import * as React from 'react';
 import { ServiceLink } from '../controls/service-link';
 import './../main.scss';
 import './services.scss';
+import { images } from '../images';
 var services = require('./services.json');
 var classNames = require('classnames');
 
@@ -32,6 +33,7 @@ export class Services extends React.Component {
       <>
         <h1>SERVICES</h1>
         <div className={classNames("services")}>
+          <div className={classNames("page-header-image")}><img src={images['services-header']} alt='' /></div>
           <div className={classNames("service-header")}>{headers}</div>
           <div className={classNames("service-intro")}>{intro}</div>
           <div className={classNames("content", "column")}>{serviceLinks}</div>

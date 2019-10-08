@@ -33,6 +33,20 @@ h3 {
   margin-bottom: 4px;
 }
 
+.page-header-image {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  width: 75%;
+  margin: auto;
+
+  @media (max-width: $max-mobile-width) {
+    width: 100%;
+  }
+}
+
 @media (max-width: $max-mobile-width) {
   h3 {
     font-size: 24px;
