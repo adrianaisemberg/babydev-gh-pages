@@ -5,7 +5,6 @@ import { texts } from '../texts';
 import { PageLink } from '../controls/page-link';
 import './../main.scss';
 import './about.scss';
-import { Copyright } from '../copyright';
 var classNames = require('classnames');
 
 export class About extends React.Component {
@@ -21,7 +20,6 @@ export class About extends React.Component {
           <PageLink small={true} href='/teach-support-challenge' image={images['about-me']} title={['TEACH.', 'SUPPORT.', 'CHALLENGE.']} />
           <PageLink small={true} href='/hands-on' image={images['about-me']} title={['HANDS-ON.', 'HOLISTIC.', 'INNOVATIVE']} />
         </div>
-        <Copyright/>
       </>
     );
   }

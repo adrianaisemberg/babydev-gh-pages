@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { SectionLink } from '../controls/section-link';
 import { images } from '../images';
-import { Copyright } from '../copyright';
 var sections = require('./home.json');
 
 export class Home extends React.Component {
@@ -19,9 +18,7 @@ export class Home extends React.Component {
             subTitles={section.subTitles}
             color={section.color}
           />
-        ))
-        }
-        <Copyright/>
+        ))}
       </>
     )
   }
