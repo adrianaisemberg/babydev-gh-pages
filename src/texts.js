@@ -13,5 +13,6 @@ export const texts = {
   'standing': require('./texts/standing.json'),
   'walking-independently': require('./texts/walking-independently.json'),
   'teach-support-challenge': require('./texts/teach-support-challenge.json'),
-  'hands-on': require('./texts/hands-on.json')
+  'hands-on': require('./texts/hands-on.json'),
+  'infant-massage': require('./texts/infant-massage.json')
 }
