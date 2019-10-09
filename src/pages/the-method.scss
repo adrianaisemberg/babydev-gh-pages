@@ -1,0 +1,30 @@
+@import './../vars.scss';
+
+.the-method {
+  .page-link-text {
+    margin: auto;
+    padding: 12px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    background: $color-blue-2;
+    transition: background-color 0.5s ease-in-out;
+
+    &:hover {
+      background: $color-blue-1;
+    }
+  }
+
+  .page-link {
+
+    &:hover {
+      background: transparent;
+    }
+  
+    h1 {
+      font-size: 18px;
+      margin-bottom: 0;
+      color: white;
+    }
+  }
+}

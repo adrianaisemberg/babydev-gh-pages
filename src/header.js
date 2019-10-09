@@ -34,6 +34,7 @@ export class Header extends React.Component {
             <li><NavLink onClick={() => this.collapseMenu()} exact={true} to='/' activeClassName="active">Home</NavLink></li>
             <li><NavLink onClick={() => this.collapseMenu()} exact={true} to='/milestones' activeClassName="active">Milestones</NavLink></li>
             <li><NavLink onClick={() => this.collapseMenu()} exact={true} to='/services' activeClassName="active">Services</NavLink></li>
+            <li><NavLink onClick={() => this.collapseMenu()} exact={true} to='/the-method' activeClassName="active">The Method</NavLink></li>
             <li><NavLink onClick={() => this.collapseMenu()} exact={true} to='/about' activeClassName="active">About</NavLink></li>
             <li><NavLink onClick={() => this.collapseMenu()} exact={true} to='/contact' activeClassName="active">Contact</NavLink></li>
             {/* <li><NavLink onClick={() => this.collapseMenu()} exact={true} to='/articles' activeClassName="active">Articles</NavLink></li>

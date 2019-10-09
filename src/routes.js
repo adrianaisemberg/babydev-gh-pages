@@ -10,6 +10,7 @@ import { TeachSupportChallenge } from './pages/teach-support-challenge';
 import { MilestoneRoutes } from './milestone-routes';
 import { About } from './pages/about';
 import { HandsOn } from './pages/hands-on';
+import { TheMethod } from './pages/the-method';
 
 export class Routes extends React.Component {
   render() {
@@ -20,6 +21,7 @@ export class Routes extends React.Component {
         <Route path='/milestone' component={MilestoneRoutes} />
         <Route path='/services' component={Services} />
         <Route path='/about' component={About} />
+        <Route path='/the-method' component={TheMethod} />
         <Route path='/contact' component={Contact} />
         <Route path='/articles' component={Articles} />
         <Route path='/testimonials' component={Testimonials} />
