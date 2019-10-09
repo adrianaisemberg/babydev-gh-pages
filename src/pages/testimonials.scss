@@ -1,30 +1,39 @@
 @import './../vars.scss';
 
 .testimonials {
+
+  margin: auto;
+
   @media (max-width: $max-mobile-width) {
-    padding: 0 64px;
   }
 
-  p {
+  h1 {
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    color: $color-blue-1;
+  }
+
+  @media (max-width: $max-mobile-width) {
+    font-size: 24px;
+  }
+
+  .testimonial {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .testimonial-separator {
+    height: 1px;
+    background: $color-red-1;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  blockquote {
     font-style: italic;
-    text-align: justify;
-    color: $color-gray-2;
-  }
-}
-
-h1.page {
-  font-size: 3em;
-  position: sticky;
-  top: 0;
-  color: white;
-  background: $color-gray-1;
-  line-height: 1em;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 0;
-  width: 100%;
-
-  @media (min-width: $min-desktop-width) {
-    display: none;
+    line-height: 24px;
   }
 }
