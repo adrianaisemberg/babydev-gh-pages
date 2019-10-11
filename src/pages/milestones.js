@@ -12,7 +12,7 @@ export class Milestones extends React.Component {
       <PageLink
         key={index}
         href={`/milestone/${milestone.href}`}
-        image={images[milestone.image]}
+        image={images[milestone.image_small]}
         title={milestone.title}
         subTitle={milestone.subTitle}
       />
