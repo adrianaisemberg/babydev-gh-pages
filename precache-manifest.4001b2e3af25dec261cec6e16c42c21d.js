@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/rolling.79bf3fe0.jpg"
   },
   {
-    "revision": "c0791556d9983903129f",
-    "url": "/static/css/main.9772e6de.chunk.css"
+    "revision": "a65f25c4bd33e29e0bbf",
+    "url": "/static/css/main.64a7fb90.chunk.css"
   },
   {
     "revision": "9c9f30cf861a92129a16",
@@ -44,64 +44,64 @@ self.__precacheManifest = [
     "url": "/static/media/pre-birth.b0b688c7.jpg"
   },
   {
-    "revision": "47688fae9385cae817aab8f01831f56c",
-    "url": "/static/media/pre-birth-mono.47688fae.jpg"
+    "revision": "3b13492754abc2320bde468053ea7d7b",
+    "url": "/static/media/pre-birth-bw.3b134927.jpg"
   },
   {
     "revision": "bfc60fe6bddbe4eee8cbd212045f8277",
     "url": "/static/media/welcome.bfc60fe6.jpg"
   },
   {
-    "revision": "578fe464a7e9b48e141ac4a05e736d76",
-    "url": "/static/media/welcome-mono.578fe464.jpg"
+    "revision": "4fa4579210e8ed8b230f0f93c9ebac04",
+    "url": "/static/media/welcome-bw.4fa45792.jpg"
   },
   {
-    "revision": "c0791556d9983903129f",
-    "url": "/static/js/main.c0791556.chunk.js"
+    "revision": "a65f25c4bd33e29e0bbf",
+    "url": "/static/js/main.a65f25c4.chunk.js"
   },
   {
-    "revision": "1c74a3de63406b948b454fd2002c6ef3",
-    "url": "/static/media/rolling-mono.1c74a3de.jpg"
+    "revision": "06c2a664a5b5585fe45d1728a21a88af",
+    "url": "/static/media/rolling-bw.06c2a664.jpg"
   },
   {
     "revision": "a1bb1095c4b4beaee591d38910822dad",
     "url": "/static/media/army-crawl.a1bb1095.jpg"
   },
   {
-    "revision": "8f98419e32bb88c9fa6052acb05ae9d1",
-    "url": "/static/media/army-crawl-mono.8f98419e.jpg"
+    "revision": "97e2cc67416faa0b9c6c780af1996e05",
+    "url": "/static/media/army-crawl-bw.97e2cc67.jpg"
   },
   {
     "revision": "822f249d405cb20a37555a4e9cba10ec",
     "url": "/static/media/crawling.822f249d.jpg"
   },
   {
-    "revision": "2fe440a06fbcd9c668b290622684cf59",
-    "url": "/static/media/crawling-mono.2fe440a0.jpg"
+    "revision": "e3a4b67378429ef8c5ebd6f45dd82c0b",
+    "url": "/static/media/crawling-bw.e3a4b673.jpg"
   },
   {
     "revision": "0971034070e1a6c66870d37edc784a45",
     "url": "/static/media/sitting-independently.09710340.jpg"
   },
   {
-    "revision": "06c3f66ddf0289c51c8ade3243237880",
-    "url": "/static/media/sitting-independently-mono.06c3f66d.jpg"
+    "revision": "8de0b3ae50abb21ea0a5080a837574d7",
+    "url": "/static/media/sitting-independently-bw.8de0b3ae.jpg"
   },
   {
     "revision": "e18b48741c8675dc1d2ab6254067117d",
     "url": "/static/media/standing.e18b4874.jpg"
   },
   {
-    "revision": "2c8ddf1a78397b2044661368c94e68fe",
-    "url": "/static/media/standing-mono.2c8ddf1a.jpg"
+    "revision": "264cbaa3d857a2f128a80b77f74b5416",
+    "url": "/static/media/standing-bw.264cbaa3.jpg"
   },
   {
     "revision": "03e2de4cd2d9e99a58644bfce1b705a1",
     "url": "/static/media/walking-independently.03e2de4c.jpg"
   },
   {
-    "revision": "4c80844e317e122d1d70804fe6c8db55",
-    "url": "/static/media/walking-independently-mono.4c80844e.jpg"
+    "revision": "84d75595ed1220552b2575808974e072",
+    "url": "/static/media/walking-independently-bw.84d75595.jpg"
   },
   {
     "revision": "4b4ee93c1c264ccf12e5f42d3291c2fb",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/static/media/milestones-header.fdac8dcd.jpg"
   },
   {
-    "revision": "42fbdd14c8ba8e36836acfda9bdaebac",
+    "revision": "6f4e4cceee451a47758b8b5d790c296a",
     "url": "/index.html"
   }
 ];
