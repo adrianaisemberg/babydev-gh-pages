@@ -8,15 +8,21 @@ export class PageLink extends React.Component {
 
     return (
       <Link to={href} className="page-link">
-        <div class="img-container">
-          {image ? <img src={image} alt='' /> : null}
-          {image ? <img src={imageOver} alt='' className="img-over" /> : null}
-        </div>
+        {image ? this.renderImage(image, imageOver) : null}
         <div className='page-link-text'>
           {this.renderTitle()}
           {subTitle ? <h2>{subTitle}</h2> : null}
         </div>
       </Link>
+    )
+  }
+
+  renderImage(image, imageOver) {
+    return (
+      <div class="img-container">
+        <img src={image} alt='' />
+        <img src={imageOver} alt='' className="img-over" />
+      </div>
     )
   }
 
