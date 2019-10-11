@@ -9,8 +9,29 @@
   transition: background-color 0.5s ease-in-out;
   color: $color-gray-2;
 
+  .img-container {
+    position: relative;
+    margin-right: 8px;
+    width: 20%;
+  }
+
+  .img-over {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
   &:hover {
     background: $color-gray-1-a10;
+
+    .img-over {
+      opacity: 1;
+    }
+
+    h1 {
+      color: $color-blue-1;
+    }
   }
   
   .page-link-text {
@@ -18,12 +39,12 @@
   }
 
   img {
-    width: 20%;
+    width: 100%;
     height: 100%;
-    margin-right: 8px;
   }
 
   h1 {
+    transition: color 0.5s ease-in-out;
     font-size: 18px;
     margin: 0;
     color: $color-gray-1;
@@ -49,7 +70,7 @@
       font-size: 14px;
     }
 
-    img {
+    .img-container {
       width: 30%;
     }
   }

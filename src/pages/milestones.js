@@ -13,6 +13,7 @@ export class Milestones extends React.Component {
         key={index}
         href={`/milestone/${milestone.href}`}
         image={images[milestone.image_small]}
+        imageOver={images[milestone.image]}
         title={milestone.title}
         subTitle={milestone.subTitle}
       />

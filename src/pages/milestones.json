@@ -2,7 +2,7 @@
   {
     "href": "be-prepared",
     "image": "pre-birth",
-    "image_small": "pre-birth-mono",
+    "image_small": "pre-birth-bw",
     "title": "Be prepared - Pre-Birth",
     "subTitle": "Parents who want to know what to do in advance, Pre-Birth!",
     "text": "be-prepared"
@@ -10,7 +10,7 @@
   {
     "href": "welcome-new-world",
     "image": "welcome",
-    "image_small": "welcome-mono",
+    "image_small": "welcome-bw",
     "title": "Welcome New World",
     "subTitle": "Babies ages 0-4 months, Birth to Pre-Rolling!",
     "text": "welcome-new-world"
@@ -18,7 +18,7 @@
   {
     "href": "rolling",
     "image": "rolling",
-    "image_small": "rolling-mono",
+    "image_small": "rolling-bw",
     "title": "Rolling",
     "subTitle": "Babies ages 4-7 months, Pre-Rolling to Rolling!",
     "text": "rolling"
@@ -26,7 +26,7 @@
   {
     "href": "army-crawl",
     "image": "army-crawl",
-    "image_small": "army-crawl-mono",
+    "image_small": "army-crawl-bw",
     "title": "Army Crawl",
     "subTitle": "Babies ages 5-8 months, Rolling to Army crawl!",
     "text": "army-crawl"
@@ -34,7 +34,7 @@
   {
     "href": "crawling",
     "image": "crawling",
-    "image_small": "crawling-mono",
+    "image_small": "crawling-bw",
     "title": "Crawling",
     "subTitle": "Babies ages 6-10 months, Rolling/Army Crawl to Crawling!",
     "text": "crawling"
@@ -42,7 +42,7 @@
   {
     "href": "sitting-independently",
     "image": "sitting-independently",
-    "image_small": "sitting-independently-mono",
+    "image_small": "sitting-independently-bw",
     "title": "Sitting Independently",
     "subTitle": "Babies ages 8-11 months, Crawling to Sitting Independently!",
     "text": "sitting-independently"
@@ -50,7 +50,7 @@
   {
     "href": "standing",
     "image": "standing",
-    "image_small": "standing-mono",
+    "image_small": "standing-bw",
     "title": "Standing",
     "subTitle": "Babies ages 8-11 months, Sitting Independently to Standing!",
     "text": "standing"
@@ -58,7 +58,7 @@
   {
     "href": "walking-independently",
     "image": "walking-independently",
-    "image_small": "walking-independently-mono",
+    "image_small": "walking-independently-bw",
     "title": "Walking Independently",
     "subTitle": "Babies agas 10-15 months, Standing to Walking Independently!",
     "text": "walking-independently"
