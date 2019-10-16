@@ -22,7 +22,7 @@ export class Page extends React.Component {
   renderContent(content) {
     return (
       <>
-        <h4>{content.header}</h4>
+        { content.header ? <h4>{content.header}</h4> : null }
         {content.content.map((c, i) => {
           if (c.subtitle) {
             return <h2 key={i}>{c.subtitle}</h2>
