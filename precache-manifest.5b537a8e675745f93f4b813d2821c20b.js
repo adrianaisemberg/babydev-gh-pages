@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/rolling.a88d48e5.jpg"
   },
   {
-    "revision": "79a3957b1b9e25a79633",
-    "url": "/static/css/main.df56d4e8.chunk.css"
+    "revision": "fef4f18d1343b6be7489",
+    "url": "/static/css/main.fdb039a8.chunk.css"
   },
   {
-    "revision": "57503beb2ed2e59eaf8b",
-    "url": "/static/js/1.57503beb.chunk.js"
+    "revision": "b775e48a674a6a805751",
+    "url": "/static/js/1.b775e48a.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/static/media/welcome-bw.8b11d8f1.jpg"
   },
   {
-    "revision": "79a3957b1b9e25a79633",
-    "url": "/static/js/main.79a3957b.chunk.js"
+    "revision": "fef4f18d1343b6be7489",
+    "url": "/static/js/main.fef4f18d.chunk.js"
   },
   {
     "revision": "e131a606c359732486e36909f4514211",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/static/media/milestones-header.fdac8dcd.jpg"
   },
   {
-    "revision": "d8b28da2eff3338d813282bf9ebb7b4f",
+    "revision": "50c5f48bd73555db3052d656e210e984",
     "url": "/index.html"
   }
 ];
