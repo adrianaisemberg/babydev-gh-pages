@@ -3,19 +3,10 @@ import './section-link.scss';
 import { Link } from 'react-router-dom'
 var classNames = require('classnames');
 
-// export interface SectionLinkProps {
-//   href: string;
-//   image: string;
-//   title: string;
-//   subTitles: string[];
-//   reverse?: boolean;
-//   color: string;
-// }
-
 export class SectionLink extends React.Component {
   render() {
-    const { href, image, title, subTitles, reverse, color } = this.props;
-    const lines = subTitles.map(line => {
+    const { href, image, title, subtitles, reverse, color } = this.props;
+    const lines = subtitles.map(line => {
       return <p key={line}>{line}</p>;
     });
 

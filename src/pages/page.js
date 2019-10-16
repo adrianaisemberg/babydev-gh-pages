@@ -6,11 +6,12 @@ var classNames = require('classnames');
 export class Page extends React.Component {
   render() {
     window.scrollTo(0, 0)
-    const { image, title, text } = this.props;
+    const { image, title, subtitle, text } = this.props;
     return (
       <div className={classNames("content", "column", "page")}>
         <img src={image} alt='' />
         {title ? <h1>{title}</h1> : null}
+        {subtitle ? <h2>{subtitle}</h2> : null}
         {text.map((t, i) => {
           return <div key={i}>{this.renderContent(t)}</div>
         })}

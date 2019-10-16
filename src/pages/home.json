@@ -3,7 +3,7 @@
     "href": "/services",
     "image": "services",
     "title": "SERVICES",
-    "subTitles": [
+    "subtitles": [
       "HANDS-ON.",
       "HOLISTIC.",
       "INNOVATIVE."
@@ -15,7 +15,7 @@
     "image": "milestones",
     "_image": "milestones",
     "title": "MILESTONES",
-    "subTitles": [
+    "subtitles": [
       "FOUNDATION.",
       "DEVELOPMENT.",
       "EXPERIENCE."
@@ -26,7 +26,7 @@
     "href": "/the-method",
     "image": "method",
     "title": "THE METHOD",
-    "subTitles": [
+    "subtitles": [
       "TEACH.",
       "SUPPORT.",
       "CHALLENGE."
@@ -37,7 +37,7 @@
     "href": "/infant-massage",
     "image": "infant-massage",
     "title": "INFANT MASSAGE",
-    "subTitles": [
+    "subtitles": [
       "WARMTH.",
       "TOUCH.",
       "BONDING."
@@ -48,7 +48,7 @@
     "href": "/about",
     "image": "about-me",
     "title": "ABOUT ME",
-    "subTitles": [
+    "subtitles": [
       "DO WHAT YOU LOVE.",
       "LOVE WHAT YOU DO."
     ],

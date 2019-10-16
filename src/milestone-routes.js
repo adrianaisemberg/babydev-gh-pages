@@ -13,6 +13,7 @@ export class MilestoneRoutes extends React.Component {
           key={index}
           image={images[milestone.image]}
           title={`${milestone.title}`}
+          subtitle={`${milestone.subtitle}`}
           text={texts[milestone.text]}
         />
       );

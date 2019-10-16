@@ -15,7 +15,7 @@ export class Home extends React.Component {
             image={images[section.image]}
             title={section.title}
             reverse={index % 2 === 1}
-            subTitles={section.subTitles}
+            subtitles={section.subtitles}
             color={section.color}
           />
         ))}

@@ -4,14 +4,14 @@ import './page-link.scss';
 
 export class PageLink extends React.Component {
   render() {
-    const { href, image, imageOver, subTitle } = this.props;
+    const { href, image, imageOver, subtitle } = this.props;
 
     return (
       <Link to={href} className="page-link">
         {image ? this.renderImage(image, imageOver) : null}
         <div className='page-link-text'>
           {this.renderTitle()}
-          {subTitle ? <h2>{subTitle}</h2> : null}
+          {subtitle ? <h2>{subtitle}</h2> : null}
         </div>
       </Link>
     )

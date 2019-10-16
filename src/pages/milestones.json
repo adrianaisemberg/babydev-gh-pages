@@ -4,7 +4,7 @@
     "image": "pre-birth",
     "image_small": "pre-birth-bw",
     "title": "Be Prepared: Pre-Birth",
-    "subTitle": "What you can do in advance, before birth",
+    "subtitle": "What you can do in advance, before birth",
     "text": "be-prepared"
   },
   {
@@ -12,7 +12,7 @@
     "image": "welcome",
     "image_small": "welcome-bw",
     "title": "Welcome, New World",
-    "subTitle": "Babies aged 0-4 months, from birth to pre-rolling",
+    "subtitle": "Babies aged 0-4 months, from birth to pre-rolling",
     "text": "welcome-new-world"
   },
   {
@@ -20,7 +20,7 @@
     "image": "rolling",
     "image_small": "rolling-bw",
     "title": "Rolling",
-    "subTitle": "Babies aged 4-7 months, from pre-rolling to rolling",
+    "subtitle": "Babies aged 4-7 months, from pre-rolling to rolling",
     "text": "rolling"
   },
   {
@@ -28,7 +28,7 @@
     "image": "army-crawl",
     "image_small": "army-crawl-bw",
     "title": "Army Crawling",
-    "subTitle": "Babies aged 5-8 months, from rolling to army crawling",
+    "subtitle": "Babies aged 5-8 months, from rolling to army crawling",
     "text": "army-crawl"
   },
   {
@@ -36,7 +36,7 @@
     "image": "crawling",
     "image_small": "crawling-bw",
     "title": "Crawling",
-    "subTitle": "Babies aged 6-10 months, from rolling/army crawling to crawling",
+    "subtitle": "Babies aged 6-10 months, from rolling/army crawling to crawling",
     "text": "crawling"
   },
   {
@@ -44,7 +44,7 @@
     "image": "sitting-independently",
     "image_small": "sitting-independently-bw",
     "title": "Sitting Independently",
-    "subTitle": "Babies aged 8-11 months, from crawling to sitting independently",
+    "subtitle": "Babies aged 8-11 months, from crawling to sitting independently",
     "text": "sitting-independently"
   },
   {
@@ -52,7 +52,7 @@
     "image": "standing",
     "image_small": "standing-bw",
     "title": "Standing",
-    "subTitle": "Babies aged 8-11 months, from sitting independently to standing",
+    "subtitle": "Babies aged 8-11 months, from sitting independently to standing",
     "text": "standing"
   },
   {
@@ -60,7 +60,7 @@
     "image": "walking-independently",
     "image_small": "walking-independently-bw",
     "title": "Walking Independently",
-    "subTitle": "Babies aged 10-15 months, from standing to walking independently",
+    "subtitle": "Babies aged 10-15 months, from standing to walking independently",
     "text": "walking-independently"
   }
 ]

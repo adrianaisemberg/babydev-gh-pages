@@ -15,7 +15,7 @@ export class Milestones extends React.Component {
         image={images[milestone.image_small]}
         imageOver={images[milestone.image]}
         title={milestone.title}
-        subTitle={milestone.subTitle}
+        subtitle={milestone.subtitle}
       />
     ));
 
