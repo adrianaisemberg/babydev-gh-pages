@@ -1,239 +1,230 @@
 {
   "header": [
     {
-      "text": "Baby Dev Studio is a unique place for parents, moms  and babies to feel safe, fortified & connected!"
-    },
-    {
-      "text": "We provide both Moms and their babies with resources to enhance  physical, sensory and social development."
+      "text": "Baby Dev Studio is a unique place for parents and babies to feel safe, strengthened and connected! We provide both parents and their babies with resources to enhance physical, sensory and social development."
     }
   ],
   "intro": [
     {
-      "text": "We are a very special family in house place, who put moms & babies at the center of our attention and care."
+      "text": "We are a very special family business that puts parents and babies at the center of our attention and care. Our groups are small and personal. We offer our services to parents from the seventh month of pregnancy until their babies are walking."
     },
     {
-      "text": "Our groups are small and personal."
-    },
-    {
-      "text": "We offer our services to moms from 7 month pregnant until their babies are walking."
-    },
-    {
-      "text": "We are a one of a kind place who come from the view of preventative and fun care mixed together."
+      "text": "We are a one-of-a-kind place that offers you a mixture of preventative and fun care."
     }
   ],
   "services": [
     {
-      "title": "“Welcome New World” - Babies ages 0-3 months",
+      "title": "Welcome, New World - Babies aged 0-3 months",
       "subtitle": "Infant development private workshop",
       "duration": "60 minutes",
       "description": [
         {
-          "text": "Learning how to help your baby achieve their motorical milestones."
+          "text": "Learn how to help your baby achieve their motor milestones"
         },
         {
-          "text": "Working on/Looking at head holding, muscle tone, tummy time, preferred side, etc."
+          "text": "Work on/gain knowledge about head-holding, muscle tone, tummy time, preferred side, etc."
         },
         {
-          "text": "Assessing and preventing developmental delays."
+          "text": "Assess and prevent developmental delays"
         },
         {
           "text": "Hands-on session"
         },
         {
-          "text": "Baby, parents/primary caregiver and Instructor."
+          "text": "Baby, parents/primary caregiver and instructor"
         }
       ],
       "prices": [
-        "<b>$80</b> weekday",
-        "<b>$100</b> weekend"
+        "<b>$80</b> weekday session",
+        "<b>$100</b> weekend session"
       ],
       "notes": [
         {
-          "text": "(Usually it takes between 3-4 lessons to cover all the exercises depending on the motoric development of the infant and the needs/wishes of the parents to learn more ways to help their baby)"
+          "text": "Usually, 3-4 lessons are needed to cover all the exercises, depending on the motor development of the infant and the needs/wishes of the parents to learn more ways to help their baby."
         }
       ]
     },
     {
-      "title": "“Rolling is Fun” - Babies ages 3-7 months",
+      "title": "Rolling Is Fun - Babies aged 3-7 months",
       "subtitle": "Infant development private workshop",
       "duration": "60 minutes",
       "description": [
         {
-          "text": "Learning how to help your baby achieve their motorical milestones."
+          "text": "Learn how to help your baby achieve their motor milestones"
         },
         {
-          "text": "Looking at rolling to both sides, spine alignment, muscle tone, tummy time, preferred side, etc."
+          "text": "Gain knowledge about rolling to both sides, spinal alignment, muscle tone, tummy time, preferred side, etc."
         },
         {
-          "text": "Assessing and preventing developmental delays."
+          "text": "Assess and prevent developmental delays"
         },
         {
           "text": "Hands-on session"
         },
         {
-          "text": "Baby, parents/primary caregiver and Instructor."
+          "text": "Baby, parents/primary caregiver and instructor"
         }
       ],
       "prices": [
-        "<b>$80</b> weekday",
-        "<b>$100</b> weekend"
+        "<b>$80</b> weekday session",
+        "<b>$100</b> weekend session"
       ],
       "notes": [
         {
-          "text": "(Usually it takes between 3-4 lessons to cover all the exercises depending on the motoric development of the infant and the needs/wishes of the parents to learn more ways to help their baby)"
+          "text": "Usually, 3-4 lessons are needed to cover all the exercises, depending on the motor development of the infant and the needs/wishes of the parents to learn more ways to help their baby."
         }
       ]
     },
     {
-      "title": "“Crawling - It’s time to move on” - Babies ages 5-12 months",
+      "title": "Crawling: It’s Time to Move On - Babies aged 5-12 months",
       "subtitle": "Infant development private workshop",
       "duration": "60 minutes",
       "description": [
         {
-          "text": "<b>Army crawl</b> - Learning how to help your baby achieve their motorical milestones."
+          "text": "<b>Army Crawl</b> - Learn how to help your baby achieve their motor milestones"
         },
         {
-          "text": "Looking at forward pulling, muscle tone, tummy time, etc."
+          "text": "Gain knowledge about forward pulling, muscle tone, tummy time, etc."
         },
         {
-          "text": "Assessing brain-ligaments connection and preventing developmental delays."
+          "text": "Assess the brain-ligaments connection and prevent developmental delays"
         },
         {
-          "text": "<b>Regular Crawl</b> - Learning how to help your baby achieve their motorical milestones."
+          "text": "<b>Regular Crawl</b> - Learn how to help your baby achieve their motor milestones"
         },
         {
-          "text": "Looking at standing at crawling position on 6 body points, rocking, symmetry movement, shoulder belt strength, muscle tone, etc."
+          "text": "Gain knowledge about maintaining the crawling position on six body points, rocking, symmetrical movement, shoulder belt strength, muscle tone, etc."
         },
         {
-          "text": "Assessing brain-ligaments connection and preventing developmental delays."
+          "text": "Assess the brain-ligaments connection and prevent developmental delays"
         },
         {
           "text": "Hands-on session"
         },
         {
-          "text": "Baby, parents/primary caregiver and Instructor."
+          "text": "Baby, parents/primary caregiver and instructor"
         }
       ],
       "prices": [
-        "<b>$80</b> weekday",
-        "<b>$100</b> weekend"
+        "<b>$80</b> weekday session",
+        "<b>$100</b> weekend session"
       ],
       "notes": [
         {
-          "text": "(Usually it takes between 4-6 lessons to cover all the exercises depending on the motoric development of the infant and the needs/wishes of the parents to learn more ways to help their baby)"
+          "text": "Usually, 4-6 lessons are needed to cover all the exercises, depending on the motor development of the infant and the needs/wishes of the parents to learn more ways to help their baby."
         }
       ]
     },
     {
-      "title": "“Seating by myself” - Babies ages 6-12 months",
+      "title": "Sitting All By Myself - Babies aged 6-12 months",
       "subtitle": "Infant development private workshop",
       "duration": "60 minutes",
       "description": [
         {
-          "text": "Learning how to help your baby achieve their motorical milestones."
+          "text": "Learn how to help your baby achieve their motor milestones"
         },
         {
-          "text": "Looking at getting in and out of sitting independently, symmetry movement, shoulder belt strength, muscle tone, feet are in point or flex a lot, sitting in a “W” shape most of the time, balance during independent sitting, fine motor skills, etc."
+          "text": "Gain knowledge about getting in and out of the sitting position independently, symmetrical movement, shoulder belt strength, muscle tone, feet that often point or flex, sitting in a “W” shape, balance during independent sitting, fine motor skills, etc."
         },
         {
-          "text": "Assessing brain-ligaments connection and preventing developmental delays."
+          "text": "Assess the brain-ligaments connection and prevent developmental delays"
         },
         {
           "text": "Hands-on session"
         },
         {
-          "text": "Baby, parents/primary caregiver and Instructor."
+          "text": "Baby, parents/primary caregiver and instructor"
         }
       ],
       "prices": [
-        "<b>$80</b> weekday",
-        "<b>$100</b> weekend"
+        "<b>$80</b> weekday session",
+        "<b>$100</b> weekend session"
       ],
       "notes": [
         {
-          "text": "(Usually it takes between 1-2 lessons to cover all the exercises depending on the motoric development of the infant and the needs/wishes of the parents to learn more ways to help their baby)"
+          "text": "Usually, 1-2 lessons are needed to cover all the exercises, depending on the motor development of the infant and the needs/wishes of the parents to learn more ways to help their baby."
         }
       ]
     },
     {
-      "title": "“Walking towards my future” - Babies ages 10-20 months",
+      "title": "Walking Toward My Future - Babies aged 10-20 months",
       "subtitle": "Infant development private workshop",
       "duration": "60 minutes",
       "description": [
         {
-          "text": "Learning how to help your baby achieve their motorical milestones."
+          "text": "Learn how to help your baby achieve their motor milestones"
         },
         {
-          "text": "Looking at getting in and out of standing independently, cruising ability, symmetry movement, muscle tone, feet position, balance during independent standing and walking, fine motor skills etc."
+          "text": "Gain knowledge about getting in and out of the standing position independently, cruising ability, symmetrical movement, muscle tone, foot position, balance during independent standing and walking, fine motor skills, etc."
         },
         {
-          "text": "Assessing brain-ligaments connection and preventing developmental delays."
+          "text": "Assess the brain-ligaments connection and prevent developmental delays"
         },
         {
           "text": "Hands-on session"
         },
         {
-          "text": "Baby, parents/primary caregiver and Instructor."
+          "text": "Baby, parents/primary caregiver and instructor"
         }
       ],
       "prices": [
-        "<b>$80</b> weekday",
-        "<b>$100</b> weekend"
+        "<b>$80</b> weekday session",
+        "<b>$100</b> weekend session"
       ],
       "notes": [
         {
-          "text": "(Usually it takes between 1-2 lessons to cover all the exercises depending on the motoric development of the infant and the needs/wishes of the parents to learn more ways to help their baby)"
+          "text": "Usually, 1-2 lessons are needed to cover all the exercises, depending on the motor development of the infant and the needs/wishes of the parents to learn more ways to help their baby."
         }
       ]
     },
     {
-      "title": "“Bonding without words” - Babies ages 0-5 months",
+      "title": "Bonding Without Words - Babies aged 0-5 months",
       "subtitle": "Infant massage private workshop",
       "duration": "3 sessions of 60 minutes each",
       "description": [
         {
-          "text": "Babies exposed to skin-to-skin contact interacted more with their caregiver and cried less."
+          "text": "Babies who experience skin-to-skin contact interact more with their caregiver and cry less"
         },
         {
-          "text": "By massaging the baby feel safe and it’s helping him to be more calm and happy."
+          "text": "Massaging the baby makes them feel safe and helps them be calmer and happier"
         },
         {
-          "text": "The massage create touch that increase the bonding between the baby and his caregiver."
+          "text": "Massage increases bonding between the baby and their caregiver"
         },
         {
           "text": "Hands-on session"
         },
         {
-          "text": "Baby, parents/primary caregiver and Instructor."
+          "text": "Baby, parents/primary caregiver and instructor"
         }
       ],
       "prices": [
-        "<b>$180</b> weekdays (total for 3 sessions)",
-        "<b>$240</b> weekends (total for 3 sessions)"
+        "<b>$180</b> weekday sessions (total for 3 sessions)",
+        "<b>$240</b> weekend sessions (total for 3 sessions)"
       ]
     },
     {
-      "title": "“How to do a Correct Tummy time?” - Babies ages 0-4 months",
+      "title": "Tummy Time the Right Way” - Babies aged 0-4 months",
       "subtitle": "Infant development private workshop",
       "duration": "60 minutes",
       "description": [
         {
-          "text": "An hands-on exercise that helps babies actually like being on their tummy because they are in the right position. Not every position that the baby is laying on the belly is helping him/her to strengthen their shoulder blades. Tummy time is the base to all the baby motor development."
+          "text": "This hands-on exercise helps babies learn to like being on their tummy because they are in the right position. Not every tummy position helps baby strengthen their shoulder blades. Tummy time is the foundation for all of baby’s motor development"
         },
         {
           "text": "Hands-on session"
         },
         {
-          "text": "Baby, parents/primary caregiver and Instructor."
+          "text": "Baby, parents/primary caregiver and instructor"
         }
       ],
       "prices": [
-        "<b>$80</b> weekday",
-        "<b>$100</b> weekend"
+        "<b>$80</b> weekday session",
+        "<b>$100</b> weekend session"
       ]
     },
     {
-      "title": "“Be prepared” - Pre-birth from 7 month pregnant until birth",
+      "title": "Be prepared - Pre-birth from 7 month pregnant until birth",
       "subtitle": "Infant development pre-birth private workshop",
       "duration": "90 minutes",
       "description": [
