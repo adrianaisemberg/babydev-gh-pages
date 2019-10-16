@@ -32,11 +32,11 @@ export class Services extends React.Component {
     return (
       <>
         <h1>SERVICES</h1>
-        <div className={classNames("services")}>
+        <div className={classNames("services", "column", "page")}>
           <div className={classNames("page-header-image")}><img src={images['services-header']} alt='' /></div>
-          <div className={classNames("service-header")}>{headers}</div>
-          <div className={classNames("service-intro")}>{intro}</div>
-          <div className={classNames("content", "column")}>{serviceLinks}</div>
+          <p>{headers}</p>
+          <p>{intro}</p>
+          <div className={classNames("content")}>{serviceLinks}</div>
         </div>
       </>
     );

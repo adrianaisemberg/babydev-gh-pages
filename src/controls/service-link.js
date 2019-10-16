@@ -13,11 +13,11 @@ export class ServiceLink extends React.Component {
         </div>
         <div className={classNames("line")} />
         <div className={classNames("service-content")}>
-          <h2>{subtitle}</h2>
+          <h4>{subtitle}</h4>
           <ul>
             {description.map((c, i) => <li key={i} dangerouslySetInnerHTML={{ __html: c.text }} />)}
           </ul>
-          <h2>{duration}</h2>
+          <p dangerouslySetInnerHTML={{ __html: duration }}/>
           <div className={classNames("prices")}>
             {prices.map((price, i) => <p key={i} dangerouslySetInnerHTML={{ __html: price }} />)}
           </div>

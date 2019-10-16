@@ -16,7 +16,7 @@
     {
       "title": "Welcome, New World - Babies aged 0-3 months",
       "subtitle": "Infant development private workshop",
-      "duration": "60 minutes",
+      "duration": "<b>60</b> minutes",
       "description": [
         {
           "text": "Learn how to help your baby achieve their motor milestones"
@@ -47,7 +47,7 @@
     {
       "title": "Rolling Is Fun - Babies aged 3-7 months",
       "subtitle": "Infant development private workshop",
-      "duration": "60 minutes",
+      "duration": "<b>60</b> minutes",
       "description": [
         {
           "text": "Learn how to help your baby achieve their motor milestones"
@@ -78,7 +78,7 @@
     {
       "title": "Crawling: It’s Time to Move On - Babies aged 5-12 months",
       "subtitle": "Infant development private workshop",
-      "duration": "60 minutes",
+      "duration": "<b>60</b> minutes",
       "description": [
         {
           "text": "<b>Army Crawl</b> - Learn how to help your baby achieve their motor milestones"
@@ -118,7 +118,7 @@
     {
       "title": "Sitting All By Myself - Babies aged 6-12 months",
       "subtitle": "Infant development private workshop",
-      "duration": "60 minutes",
+      "duration": "<b>60</b> minutes",
       "description": [
         {
           "text": "Learn how to help your baby achieve their motor milestones"
@@ -149,7 +149,7 @@
     {
       "title": "Walking Toward My Future - Babies aged 10-20 months",
       "subtitle": "Infant development private workshop",
-      "duration": "60 minutes",
+      "duration": "<b>60</b> minutes",
       "description": [
         {
           "text": "Learn how to help your baby achieve their motor milestones"
@@ -180,7 +180,7 @@
     {
       "title": "Bonding Without Words - Babies aged 0-5 months",
       "subtitle": "Infant massage private workshop",
-      "duration": "3 sessions of 60 minutes each",
+      "duration": "<b>3</b> sessions of <b>60</b> minutes each",
       "description": [
         {
           "text": "Babies who experience skin-to-skin contact interact more with their caregiver and cry less"
@@ -204,9 +204,9 @@
       ]
     },
     {
-      "title": "Tummy Time the Right Way” - Babies aged 0-4 months",
+      "title": "Tummy Time the Right Way - Babies aged 0-4 months",
       "subtitle": "Infant development private workshop",
-      "duration": "60 minutes",
+      "duration": "<b>60</b> minutes",
       "description": [
         {
           "text": "This hands-on exercise helps babies learn to like being on their tummy because they are in the right position. Not every tummy position helps baby strengthen their shoulder blades. Tummy time is the foundation for all of baby’s motor development"
@@ -226,7 +226,7 @@
     {
       "title": "Be prepared - Pre-birth from 7 month pregnant until birth",
       "subtitle": "Infant development pre-birth private workshop",
-      "duration": "90 minutes",
+      "duration": "<b>90</b> minutes",
       "description": [
         {
           "text": "If you feel a bit clueless and insecure and you don’t know what to do when the due date will come."
@@ -242,8 +242,8 @@
         }
       ],
       "prices": [
-        "<b>$120</b> weekday",
-        "<b>$140</b> weekend"
+        "<b>$120</b> weekday session",
+        "<b>$140</b> weekend session"
       ]
     }
   ]
