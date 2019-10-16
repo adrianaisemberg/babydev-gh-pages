@@ -12,6 +12,8 @@ import { About } from './pages/about';
 import { HandsOn } from './pages/hands-on';
 import { TheMethod } from './pages/the-method';
 import { InfantMassage } from './pages/infant-massage';
+import { Disclaimer } from './pages/disclaimer';
+import { TermsOfUse } from './pages/terms-of-use';
 
 export class Routes extends React.Component {
   render() {
@@ -29,6 +31,8 @@ export class Routes extends React.Component {
         <Route path='/teach-support-challenge' component={TeachSupportChallenge} />
         <Route path='/hands-on' component={HandsOn} />
         <Route path='/infant-massage' component={InfantMassage} />
+        <Route path='/disclaimer' component={Disclaimer} />
+        <Route path='/terms-of-use' component={TermsOfUse} />
       </Switch>
     )
   }

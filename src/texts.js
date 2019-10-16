@@ -15,5 +15,7 @@ export const texts = {
   'teach-support-challenge': require('./texts/teach-support-challenge.json'),
   'hands-on': require('./texts/hands-on.json'),
   'infant-massage': require('./texts/infant-massage.json'),
-  'testimonials': require('./texts/testimonials.json')
+  'testimonials': require('./texts/testimonials.json'),
+  'disclaimer': require('./texts/disclaimer.json'),
+  'terms-of-use': require('./texts/terms-of-use.json')
 }
