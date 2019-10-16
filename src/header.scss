@@ -12,11 +12,11 @@ header {
 
   .logo {
     z-index: 2;
-    background-image: url('./images/logo_625x242.png');
+    background-image: url('./images/logo_feet_625x242.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: 50%;
-    height: 100px;
+    height: 150px;
     margin-top: 16px;
 
     @media (max-width: $max-mobile-width) {
