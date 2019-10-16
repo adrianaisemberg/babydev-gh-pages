@@ -34,6 +34,11 @@
 
   blockquote {
     font-style: italic;
-    line-height: 24px;
+    line-height: 32px;
+    color: $color-gray-1;
+
+    @media (max-width: $max-mobile-width) {
+      font-size: 16px;
+    }
   }
 }
