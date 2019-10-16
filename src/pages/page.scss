@@ -42,7 +42,8 @@
     text-align: justify;
     font-size: 18px;
     margin: 12px auto;
-
+    line-height: 30px;
+    
     @media (max-width: $max-mobile-width) {
       margin: 16px;
     }
