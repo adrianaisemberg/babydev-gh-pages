@@ -1,16 +1,5 @@
 [
   {
-    "href": "/services",
-    "image": "services",
-    "title": "SERVICES",
-    "subtitles": [
-      "HANDS-ON.",
-      "HOLISTIC.",
-      "INNOVATIVE."
-    ],
-    "color": "#00aeef"
-  },
-  {
     "href": "/milestones",
     "image": "milestones",
     "_image": "milestones",
@@ -21,6 +10,17 @@
       "EXPERIENCE."
     ],
     "color": "#fe4e80"
+  },
+  {
+    "href": "/services",
+    "image": "services",
+    "title": "SERVICES",
+    "subtitles": [
+      "HANDS-ON.",
+      "HOLISTIC.",
+      "INNOVATIVE."
+    ],
+    "color": "#00aeef"
   },
   {
     "href": "/the-method",
