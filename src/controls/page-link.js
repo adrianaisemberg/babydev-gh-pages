@@ -1,13 +1,14 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom'
 import './page-link.scss';
+var classNames = require('classnames');
 
 export class PageLink extends React.Component {
   render() {
-    const { href, image, imageOver, subtitle } = this.props;
+    const { href, image, imageOver, subtitle, className } = this.props;
 
     return (
-      <Link to={href} className="page-link">
+      <Link to={href} className={classNames("page-link", className)}>
         {image ? this.renderImage(image, imageOver) : null}
         <div className='page-link-text'>
           {this.renderTitle()}

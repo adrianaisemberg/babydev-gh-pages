@@ -5,7 +5,8 @@
     "image_small": "pre-birth-bw",
     "title": "Be Prepared: Pre-Birth",
     "subtitle": "What you can do in advance, before birth",
-    "text": "be-prepared"
+    "text": "be-prepared",
+    "next": "welcome-new-world"
   },
   {
     "href": "welcome-new-world",
@@ -13,7 +14,8 @@
     "image_small": "welcome-bw",
     "title": "Welcome, New World",
     "subtitle": "Babies aged 0-4 months, from birth to pre-rolling",
-    "text": "welcome-new-world"
+    "text": "welcome-new-world",
+    "next": "rolling"
   },
   {
     "href": "rolling",
@@ -21,7 +23,8 @@
     "image_small": "rolling-bw",
     "title": "Rolling",
     "subtitle": "Babies aged 4-7 months, from pre-rolling to rolling",
-    "text": "rolling"
+    "text": "rolling",
+    "next": "army-crawl"
   },
   {
     "href": "army-crawl",
@@ -29,7 +32,8 @@
     "image_small": "army-crawl-bw",
     "title": "Army Crawling",
     "subtitle": "Babies aged 5-8 months, from rolling to army crawling",
-    "text": "army-crawl"
+    "text": "army-crawl",
+    "next": "crawling"
   },
   {
     "href": "crawling",
@@ -37,7 +41,8 @@
     "image_small": "crawling-bw",
     "title": "Crawling",
     "subtitle": "Babies aged 6-10 months, from rolling/army crawling to crawling",
-    "text": "crawling"
+    "text": "crawling",
+    "next": "sitting-independently"
   },
   {
     "href": "sitting-independently",
@@ -45,7 +50,8 @@
     "image_small": "sitting-independently-bw",
     "title": "Sitting Independently",
     "subtitle": "Babies aged 8-11 months, from crawling to sitting independently",
-    "text": "sitting-independently"
+    "text": "sitting-independently",
+    "next": "standing"
   },
   {
     "href": "standing",
@@ -53,7 +59,8 @@
     "image_small": "standing-bw",
     "title": "Standing",
     "subtitle": "Babies aged 8-11 months, from sitting independently to standing",
-    "text": "standing"
+    "text": "standing",
+    "next": "walking-independently"
   },
   {
     "href": "walking-independently",

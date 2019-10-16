@@ -15,6 +15,7 @@ export class MilestoneRoutes extends React.Component {
           title={`${milestone.title}`}
           subtitle={`${milestone.subtitle}`}
           text={texts[milestone.text]}
+          next_milestone={milestones[index+1]}
         />
       );
 
