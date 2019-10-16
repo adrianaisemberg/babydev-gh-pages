@@ -8,7 +8,7 @@ export class HandsOn extends React.Component {
   render() {
     window.scrollTo(0, 0)
     return (
-      <Page title='Hands-On' text={texts['hands-on']} />
+      <Page title='HANDS-ON · HOLISTIC · INNOVATIVE' text={texts['hands-on']} />
     );
   }
 }

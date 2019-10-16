@@ -7,7 +7,7 @@ import './about.scss';
 export class TeachSupportChallenge extends React.Component {
   render() {
     return (
-      <Page title="Teach · Support · Challenge" text={texts['teach-support-challenge']} />
+      <Page title="TEACH · SUPPORT · CHALLENGE" text={texts['teach-support-challenge']} />
     );
   }
 }
