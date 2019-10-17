@@ -49,6 +49,17 @@
     }
   }
 
+  ul {
+    @media (max-width: $max-mobile-width) {
+      margin: 16px;
+    }
+  }
+
+  li {
+    line-height: 30px;
+    font-size: 18px;
+  }
+
   .next-milestone-title {
     margin-top: 64px;
     color: $color-blue-1;
