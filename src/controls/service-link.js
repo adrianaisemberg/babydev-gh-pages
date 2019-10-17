@@ -11,7 +11,6 @@ export class ServiceLink extends React.Component {
         <div className={classNames("service-title")}>
           <div>{title}</div>
         </div>
-        <div className={classNames("line")} />
         <div className={classNames("service-content")}>
           <h4>{subtitle}</h4>
           <ul>

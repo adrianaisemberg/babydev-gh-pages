@@ -38,18 +38,16 @@
 
   .service {
     margin: 56px 0;
-    border: 1px solid $color-blue-1;
-    border-radius: 6px;
+    border: 1px solid $color-blue-4;
   }
 
   .service-title {
-    background: $color-blue-1;
-    border-radius: 5px 5px 0 0;
+    background: $color-blue-4;
     padding: 8px;
 
     > div {
       font-size: 24px;
-      color: white;
+      color: $color-blue-3;
     }
   }
 
