@@ -1,10 +1,8 @@
 {
-  "header": [
+  "intro": [
     {
       "text": "Baby Dev Studio is a unique place for parents and babies to feel safe, strengthened and connected! We provide both parents and their babies with resources to enhance physical, sensory and social development."
-    }
-  ],
-  "intro": [
+    },
     {
       "text": "We are a very special family business that puts parents and babies at the center of our attention and care. Our groups are small and personal. We offer our services to parents from the seventh month of pregnancy until their babies are walking."
     },
@@ -16,7 +14,7 @@
     {
       "title": "Welcome, New World - Babies aged 0-3 months",
       "subtitle": "Infant development private workshop",
-      "duration": "<b>60</b> minutes",
+      "duration": "<b>60</b> minutes per session",
       "description": [
         {
           "text": "Learn how to help your baby achieve their motor milestones"
@@ -47,7 +45,7 @@
     {
       "title": "Rolling Is Fun - Babies aged 3-7 months",
       "subtitle": "Infant development private workshop",
-      "duration": "<b>60</b> minutes",
+      "duration": "<b>60</b> minutes per session",
       "description": [
         {
           "text": "Learn how to help your baby achieve their motor milestones"
@@ -78,7 +76,7 @@
     {
       "title": "Crawling: It’s Time to Move On - Babies aged 5-12 months",
       "subtitle": "Infant development private workshop",
-      "duration": "<b>60</b> minutes",
+      "duration": "<b>60</b> minutes per session",
       "description": [
         {
           "text": "<b>Army Crawl</b> - Learn how to help your baby achieve their motor milestones"
@@ -118,7 +116,7 @@
     {
       "title": "Sitting All By Myself - Babies aged 6-12 months",
       "subtitle": "Infant development private workshop",
-      "duration": "<b>60</b> minutes",
+      "duration": "<b>60</b> minutes per session",
       "description": [
         {
           "text": "Learn how to help your baby achieve their motor milestones"
@@ -149,7 +147,7 @@
     {
       "title": "Walking Toward My Future - Babies aged 10-20 months",
       "subtitle": "Infant development private workshop",
-      "duration": "<b>60</b> minutes",
+      "duration": "<b>60</b> minutes per session",
       "description": [
         {
           "text": "Learn how to help your baby achieve their motor milestones"
@@ -180,7 +178,7 @@
     {
       "title": "Bonding Without Words - Babies aged 0-5 months",
       "subtitle": "Infant massage private workshop",
-      "duration": "<b>3</b> sessions of <b>60</b> minutes each",
+      "duration": "<b>60</b> minutes per session. <b>3</b> sessions total.",
       "description": [
         {
           "text": "Babies who experience skin-to-skin contact interact more with their caregiver and cry less"
@@ -206,7 +204,7 @@
     {
       "title": "Tummy Time the Right Way - Babies aged 0-4 months",
       "subtitle": "Infant development private workshop",
-      "duration": "<b>60</b> minutes",
+      "duration": "<b>60</b> minutes per session",
       "description": [
         {
           "text": "This hands-on exercise helps babies learn to like being on their tummy because they are in the right position. Not every tummy position helps baby strengthen their shoulder blades. Tummy time is the foundation for all of baby’s motor development"
@@ -226,7 +224,7 @@
     {
       "title": "Be Prepared - Pre-birth, from 7 months pregnant until birth",
       "subtitle": "Infant development pre-birth private workshop",
-      "duration": "<b>90</b> minutes",
+      "duration": "<b>90</b> minutes per session",
       "description": [
         {
           "text": "For parents who feel a bit clueless, insecure or unsure of what to do when the due date arrives"

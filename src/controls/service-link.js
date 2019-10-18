@@ -16,7 +16,7 @@ export class ServiceLink extends React.Component {
           <ul>
             {description.map((c, i) => <li key={i} dangerouslySetInnerHTML={{ __html: c.text }} />)}
           </ul>
-          <p dangerouslySetInnerHTML={{ __html: duration }}/>
+          <p className={classNames("duration")} dangerouslySetInnerHTML={{ __html: duration }}/>
           <div className={classNames("prices")}>
             {prices.map((price, i) => <p key={i} dangerouslySetInnerHTML={{ __html: price }} />)}
           </div>

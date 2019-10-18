@@ -9,12 +9,8 @@ var classNames = require('classnames');
 export class Services extends React.Component {
   render() {
     window.scrollTo(0, 0)
-    var headers = services.header.map((header, index) => (
-      <div key={index}>{header.text}</div>
-    ));
-
     var intro = services.intro.map((intro, index) => (
-      <div key={index}>{intro.text}</div>
+      <p key={index}>{intro.text}</p>
     ));
 
     var serviceLinks = services.services.map((service, index) => (
@@ -34,8 +30,7 @@ export class Services extends React.Component {
         <h1>SERVICES</h1>
         <div className={classNames("services", "column", "page")}>
           <div className={classNames("page-header-image")}><img src={images['services-header']} alt='' /></div>
-          <p>{headers}</p>
-          <p>{intro}</p>
+          {intro}
           <div className={classNames("content")}>{serviceLinks}</div>
         </div>
       </>

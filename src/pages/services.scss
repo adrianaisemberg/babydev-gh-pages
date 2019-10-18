@@ -3,8 +3,12 @@
 .services {
   margin: 0 80px 12px 80px;
   
-  @media (max-width: $max-mobile-width) {
-    margin: 0 20px 12px 20px;
+  h4 {
+    margin: 4px 0;
+  }
+
+  li {
+    color: $color-gray-1;
   }
 
   .service-header {
@@ -39,6 +43,16 @@
   .service {
     margin: 56px 0;
     border: 1px solid $color-blue-4;
+
+    @media (max-width: $max-mobile-width) {
+      margin: 56px 24px;
+    }  
+
+    p {
+      @media (max-width: $max-mobile-width) {
+        margin: 8px 0;
+      }
+    }
   }
 
   .service-title {
@@ -55,8 +69,12 @@
     padding: 12px;
   }
 
-  .prices {
+  .prices p {
+    color: $color-green-1;
+  }
 
+  .duration {
+    color: $color-red-1;
   }
 
   .line {
