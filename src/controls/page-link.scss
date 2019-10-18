@@ -4,8 +4,6 @@
   text-decoration: none;
   display: flex;
   flex-direction: row;
-  margin: 1px;
-  padding: 1px;
   transition: background-color 0.5s ease-in-out;
   color: $color-gray-2;
 
@@ -34,7 +32,7 @@
   }
   
   .page-link-text {
-    margin-top: 12px;
+    margin-top: 4px;
   }
 
   img {
@@ -46,9 +44,9 @@
     transition: color 0.5s ease-in-out;
     font-size: 18px;
     margin: 0;
-    color: $color-gray-1;
+    color: $color-green-1;
     margin-bottom: 4px;
-
+    
     &.small {
       font-size: 14px;
     }
@@ -57,6 +55,7 @@
   h2 {
     font-size: 16px;
     margin: 0;
+    color: $color-gray-1;
   }
 
   @media (max-width: $max-mobile-width) {

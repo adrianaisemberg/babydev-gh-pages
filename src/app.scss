@@ -7,10 +7,15 @@ body {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   color: $color-text;
+
   // font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #root {
   max-width: $min-desktop-width;
   margin: auto;
+}
+
+* {
+  font-weight: 100;
 }
