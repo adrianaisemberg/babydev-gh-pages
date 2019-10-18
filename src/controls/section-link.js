@@ -18,10 +18,10 @@ export class SectionLink extends React.Component {
       <Link to={href} className={classNames("section-link", { "reverse": reverse })}>
         <div className="image-container">
           <img src={image} alt='' />
-          <h2>{lines}</h2>
         </div>
         <div className="gradient-background" />
         <h1 style={style}>{title}</h1>
+        <h2>{lines}</h2>
       </Link>
     )
   }
