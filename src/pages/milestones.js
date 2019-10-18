@@ -9,10 +9,9 @@ export class Milestones extends React.Component {
   render() {
     window.scrollTo(0, 0)
     var pageLinks = milestones.map((milestone, index) => (
-      <>
+      <div key={index}>
         { index === 0 ? <div className={classNames("page-link-separator")}></div> : null }
         <PageLink
-          key={index}
           href={`/milestone/${milestone.href}`}
           image={images[milestone.image_small]}
           imageOver={images[milestone.image]}
@@ -20,7 +19,7 @@ export class Milestones extends React.Component {
           subtitle={milestone.subtitle}
         />
         <div className={classNames("page-link-separator")}></div>
-      </>
+      </div>
     ));
 
     return (

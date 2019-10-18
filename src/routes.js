@@ -6,10 +6,8 @@ import { Services } from './pages/services';
 import { Contact } from './pages/contact';
 import { Articles } from './pages/articles';
 import { Testimonials } from './pages/testimonials';
-import { TeachSupportChallenge } from './pages/teach-support-challenge';
 import { MilestoneRoutes } from './milestone-routes';
 import { About } from './pages/about';
-import { HandsOn } from './pages/hands-on';
 import { TheMethod } from './pages/the-method';
 import { InfantMassage } from './pages/infant-massage';
 import { Disclaimer } from './pages/disclaimer';
@@ -28,8 +26,6 @@ export class Routes extends React.Component {
         <Route path='/contact' component={Contact} />
         <Route path='/articles' component={Articles} />
         <Route path='/testimonials' component={Testimonials} />
-        <Route path='/teach-support-challenge' component={TeachSupportChallenge} />
-        <Route path='/hands-on' component={HandsOn} />
         <Route path='/infant-massage' component={InfantMassage} />
         <Route path='/disclaimer' component={Disclaimer} />
         <Route path='/terms-of-use' component={TermsOfUse} />

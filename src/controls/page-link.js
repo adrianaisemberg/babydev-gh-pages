@@ -20,7 +20,7 @@ export class PageLink extends React.Component {
 
   renderImage(image, imageOver) {
     return (
-      <div class="img-container">
+      <div className="img-container">
         <img src={image} alt='' />
         <img src={imageOver} alt='' className="img-over" />
       </div>
