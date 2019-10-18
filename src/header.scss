@@ -11,7 +11,6 @@ header {
   }
 
   .logo {
-    z-index: 2;
     background-image: url('./images/logo_feet_625x242.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -20,10 +19,7 @@ header {
     margin-top: 16px;
 
     @media (max-width: $max-mobile-width) {
-      background-position-x: 60px;
-      height: 50px;
-      margin-top: 8px;
-      margin-bottom: 4px;
+      margin: 64px 0;
     }
   }
 
