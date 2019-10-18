@@ -6,14 +6,19 @@
 
   h1 {
     text-align: center;
-    margin-top: 16px;
-    margin-bottom: 8px;
+    margin-top: 24px;
+    margin-bottom: 32px;
     color: $color-blue-1;
   }
 
   .testimonial {
     margin-top: 32px;
     margin-bottom: 32px;
+    position: relative;
+
+    @media (max-width: $max-mobile-width) {
+      margin-left: 16px;
+    }
   }
 
   .testimonial-separator {
@@ -23,6 +28,7 @@
     margin-right: 100px;
     margin-top: 32px;
     margin-bottom: 32px;
+    opacity: 0.3;
   }
 
   blockquote {
@@ -33,5 +39,23 @@
     @media (max-width: $max-mobile-width) {
       font-size: 16px;
     }
+  }
+
+  .testimonial:before {
+    content: "\201C";
+    color: $color-green-1;
+    font-family: Georgia, serif;
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    top: -10px;
+  }
+
+  .testimonial-container:nth-child(2n) .testimonial:before {
+    color: $color-red-1;
+  }
+
+  .testimonial-container:nth-child(3n) .testimonial:before {
+    color: $color-blue-1;
   }
 }

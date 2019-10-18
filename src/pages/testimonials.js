@@ -17,17 +17,17 @@ export class Testimonials extends React.Component {
   }
 
   renderTestimonials() {
-    return testimonials.testimonials.map(testimonial => (
-      <>
+    return testimonials.testimonials.map((testimonial, index) => (
+      <div key={index} className={classNames("testimonial-container")}>
         <div className={classNames("testimonial")}>{this.renderTestimonial(testimonial.testimonial)}</div>
         <div className={classNames("testimonial-separator")}></div>
-      </>
+      </div>
     ));
   }
 
   renderTestimonial(testimonial) {
-    return testimonial.map(text => (
-      <blockquote>{text.text}</blockquote>
+    return testimonial.map((text, index) => (
+      <blockquote key={index}>{text.text}</blockquote>
     ));
   }
 }
