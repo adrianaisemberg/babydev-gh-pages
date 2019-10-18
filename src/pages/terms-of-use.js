@@ -8,7 +8,8 @@ export class TermsOfUse extends React.Component {
     window.scrollTo(0, 0)
     return (
       <>
-        <Page title='Terms of Use' text={texts['terms-of-use']} />
+        <h1>TERMS OF USE</h1>
+        <Page text={texts['terms-of-use']} />
       </>
     );
   }

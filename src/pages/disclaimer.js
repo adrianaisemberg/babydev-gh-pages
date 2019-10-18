@@ -8,7 +8,8 @@ export class Disclaimer extends React.Component {
     window.scrollTo(0, 0)
     return (
       <>
-        <Page title='Disclaimer of Advice' text={texts['disclaimer']} />
+        <h1>DISCLAIMER OF ADVICE</h1>
+        <Page text={texts['disclaimer']} />
       </>
     );
   }
