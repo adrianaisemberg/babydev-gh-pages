@@ -18,6 +18,7 @@
     line-height: 1em;
     text-transform: uppercase;
     padding: 8px 0;
+    font-weight: 100;
 
     @media (max-width: $max-mobile-width) {
       font-size: 24px;
@@ -30,6 +31,7 @@
     padding-bottom: 10px;
     color: $color-red-1;
     background: $color-red-4;
+    font-weight: 100;
   }
 
   img.page-image {
@@ -63,7 +65,7 @@
   .next-milestone-title {
     margin-top: 64px;
     color: $color-green-1;
-    font-size: 24px;
+    font-size: 20px;
 
     @media (max-width: $max-mobile-width) {
       margin-left: 8px;

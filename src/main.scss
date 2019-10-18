@@ -13,6 +13,9 @@
 
   h4 {
     color: $color-header;
+    font-weight: 100;
+    color: $color-green-1;
+    font-size: 20px;
 
     @media (max-width: $max-mobile-width) {
       margin-right: 8px;
