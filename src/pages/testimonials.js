@@ -3,6 +3,7 @@ import './testimonials.scss';
 import './../main.scss';
 import { texts } from '../texts';
 import { Title } from '../controls/title';
+import { images } from '../images';
 var classNames = require('classnames');
 var testimonials = texts['testimonials'];
 

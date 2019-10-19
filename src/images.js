@@ -26,4 +26,10 @@ export const images = {
   'walking-independently-bw': require('./images/walking-independently-bw.jpg'),
   'services-header': require('./images/services-header.jpg'),
   'milestones-header': require('./images/milestones-header.jpg'),
+  'challenge': require('./images/challenge.jpg'),
+  'holistic': require('./images/holistic.jpg'),
+  'testimonials-1': require('./images/testimonials-1.jpg'),
+  'testimonials-2': require('./images/testimonials-2.jpg'),
+  'testimonials-3': require('./images/testimonials-3.jpg'),
+  'testimonials-4': require('./images/testimonials-4.jpg'),
 }
