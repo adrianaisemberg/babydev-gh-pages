@@ -14,6 +14,12 @@
     }
   }
 
+  img.page-image {
+    margin: auto;
+    display: block;
+    width: 100%;
+  }
+  
   .testimonial-separator {
     height: 1px;
     background: $color-red-light;

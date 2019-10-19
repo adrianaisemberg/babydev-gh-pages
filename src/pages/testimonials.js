@@ -13,7 +13,9 @@ export class Testimonials extends React.Component {
     return (
       <div className={classNames("testimonials", "column")}>
         <Title text="Testimonials" />
+        <img src={images["testimonials-4"]} alt='' className={classNames("page-image")} />
         <div>{this.renderTestimonials()}</div>
+        <img src={images["testimonials-1"]} alt='' className={classNames("page-image")} />
       </div>
     )
   }
