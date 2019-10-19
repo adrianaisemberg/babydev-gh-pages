@@ -50,12 +50,6 @@
     color: $color-gray-light;
 
     @media (max-width: $max-mobile-width) {
-      margin: 16px 32px;
-    }
-  }
-
-  ul {
-    @media (max-width: $max-mobile-width) {
       margin: 16px;
     }
   }
