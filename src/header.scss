@@ -1,6 +1,7 @@
 @import './vars.scss';
 
-$color-hamburger: $color-blue-1;
+$color-hamburger: white;
+$color-hamburger-background: #66666650;
 
 header {
   display: flex;
@@ -81,11 +82,12 @@ header {
     cursor: pointer;
     position: absolute;
     z-index: 2;
+    margin: 4px;
 
     &:before {
       content: "";
       display: block;
-      background-color: $color-hamburger;
+      background-color: $color-leg-yellow;
       width: 100%;
       height: 3px;
     }
@@ -93,11 +95,11 @@ header {
     &:after {
       content: "";
       display: block;
-      background-color: $color-hamburger;
+      background-color: $color-leg-blue;
       width: 100%;
       height: 3px;
       margin-top: 5px;
-      box-shadow: 0px 8px 0 $color-hamburger;
+      box-shadow: 0px 8px 0 $color-leg-red;
     }
   }
 
