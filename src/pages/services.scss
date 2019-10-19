@@ -62,7 +62,9 @@
   }
 
   .service-content {
-    padding: 12px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
   .prices p {
@@ -70,7 +72,7 @@
   }
 
   .duration {
-    color: $color-red-dark;
+    color: $color-blue-dark;
   }
 
   .line {

@@ -1,0 +1,18 @@
+@import './vars.scss';
+
+.call-to-action {
+
+  text-align: center;
+  margin: 64px;
+
+  a {
+    padding: 32px;
+    text-decoration: none;
+    color: $color-red-dark;
+    font-size: 24px;
+  }
+}
+
+.service .call-to-action {
+  margin: 32px;
+}

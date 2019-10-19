@@ -6,8 +6,8 @@
 
   h1, h2 {
     margin: 0;
-    width: 100%;
     padding-left: 16px;
+    padding-right: 16px;
 
     @media (min-width: $min-desktop-width) {
       text-align: center;
@@ -33,8 +33,8 @@
     font-size: 18px;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: $color-red-dark;
-    background: $color-red-light;
+    color: $color-blue-dark;
+    background: $color-blue-light;
   }
 
   img.page-image {

@@ -4,6 +4,7 @@ import './../main.scss';
 import { texts } from '../texts';
 import { Title } from '../controls/title';
 import { images } from '../images';
+import { CallToAction } from '../call-to-action';
 var classNames = require('classnames');
 var testimonials = texts['testimonials'];
 
@@ -15,6 +16,7 @@ export class Testimonials extends React.Component {
         <Title text="Testimonials" />
         <img src={images["testimonials-4"]} alt='' className={classNames("page-image")} />
         <div>{this.renderTestimonials()}</div>
+        <CallToAction/>
         <img src={images["testimonials-1"]} alt='' className={classNames("page-image")} />
       </div>
     )

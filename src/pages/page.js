@@ -4,6 +4,7 @@ import './../controls/page-link.scss';
 import './../main.scss';
 import { PageLink } from '../controls/page-link';
 import { images } from '../images';
+import { CallToAction } from '../call-to-action';
 var classNames = require('classnames');
 
 export class Page extends React.Component {
@@ -18,6 +19,7 @@ export class Page extends React.Component {
         {text.map((t, i) => {
           return <div key={i}>{this.renderContent(t)}</div>
         })}
+        <CallToAction/>
         {next_milestone ? this.renderNextMilestone(next_milestone) : null}
       </div>
     );
