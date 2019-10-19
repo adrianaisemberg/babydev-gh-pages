@@ -28,7 +28,8 @@ form {
         padding: 8px;
         width: auto;
         transition: background-color 0.3s ease-in-out;
-
+        background: transparent;
+        
         &:hover {
           background: $color-blue-light;
         }
