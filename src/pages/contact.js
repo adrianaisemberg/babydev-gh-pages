@@ -10,6 +10,7 @@ export class Contact extends React.Component {
     return (
       <div className={classNames("content", "column")}>
         <Title text="Contact"/>
+        <p className="contact-intro">I’m here to help you gain or strengthen your parenting gut!</p>
         <form name='contact' action='https://formspree.io/lilachberko@gmail.com' method='POST'>
           <input type="hidden" name="_subject" value="BabyDevStudio Contact" />
           <input type="hidden" name="_cc" value="adrianaisemberg@gmail.com" />
