@@ -16,6 +16,7 @@ form {
       padding: 8px;
       margin-top: 4px;
       border: 1px solid $color-green-dark-transparent;
+      color: $color-gray-dark;
 
       &[type='submit'] {
         color: $color-blue-dark;
@@ -29,7 +30,7 @@ form {
         width: auto;
         transition: background-color 0.3s ease-in-out;
         background: transparent;
-        
+
         &:hover {
           background: $color-blue-light;
         }
