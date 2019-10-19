@@ -26,7 +26,7 @@ export class Testimonials extends React.Component {
     return testimonials.testimonials.map((testimonial, index) => (
       <div key={index} className={classNames("testimonial-container")}>
         <div className={classNames("testimonial")}>{this.renderTestimonial(testimonial.testimonial)}</div>
-        <div className={classNames("testimonial-separator")}></div>
+        { index < testimonials.testimonials.length - 1 ? <div className={classNames("testimonial-separator")}></div> : null }
       </div>
     ));
   }
