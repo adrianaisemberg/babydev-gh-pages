@@ -3,6 +3,7 @@ import { PageLink } from '../controls/page-link';
 import { images } from '../images';
 import './../main.scss';
 import { Title } from '../controls/title';
+import { CallToAction } from '../call-to-action';
 var milestones = require('./milestones.json');
 var classNames = require('classnames');
 
@@ -28,6 +29,7 @@ export class Milestones extends React.Component {
         <Title text="Milestones" />
         <div className={classNames("page-header-image")}><img src={images['milestones-header']} alt='' /></div>
         <div className={classNames("content", "column")}>{pageLinks}</div>
+        <CallToAction/>
       </>
     );
   }
