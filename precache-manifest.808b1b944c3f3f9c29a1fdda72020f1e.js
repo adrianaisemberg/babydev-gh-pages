@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/rolling.a88d48e5.jpg"
   },
   {
-    "revision": "7620febdfc81d19bc447",
+    "revision": "949b8d14b1b03bb79bf0",
     "url": "/static/css/main.50deb3bc.chunk.css"
   },
   {
@@ -20,24 +20,24 @@ self.__precacheManifest = [
     "url": "/static/media/logo_feet_625x242.055b0a62.png"
   },
   {
-    "revision": "d09166fb0ecf833d58cfc96f42bbb341",
-    "url": "/static/media/milestones.d09166fb.jpg"
+    "revision": "79e2db2cde03474d597857c62af8bb93",
+    "url": "/static/media/home-milestones.79e2db2c.jpg"
   },
   {
     "revision": "bf383ea11d9216ecfdf27555cef29a35",
     "url": "/static/media/infant-massage.bf383ea1.jpg"
   },
   {
-    "revision": "2b9a8d0e23865e255cc013b8a8cfc61a",
-    "url": "/static/media/services.2b9a8d0e.jpg"
+    "revision": "41472a2a51732b44275b9e9d8e63b012",
+    "url": "/static/media/services.41472a2a.jpg"
   },
   {
-    "revision": "64641f54198f5669e5b05d2a66cfb977",
-    "url": "/static/media/method.64641f54.jpg"
+    "revision": "308bb166dcbed58beb3f2c2f4f5bf70e",
+    "url": "/static/media/the-method.308bb166.jpg"
   },
   {
-    "revision": "3c074ae1a2667848cd29179552bb3f72",
-    "url": "/static/media/about-me.3c074ae1.jpg"
+    "revision": "85a885bb11b8d4d61bda81d7837089bb",
+    "url": "/static/media/about-me.85a885bb.jpg"
   },
   {
     "revision": "b6efc49804eca9a9afbe3db9cba95388",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/static/media/welcome-bw.8b11d8f1.jpg"
   },
   {
-    "revision": "7620febdfc81d19bc447",
-    "url": "/static/js/main.7620febd.chunk.js"
+    "revision": "949b8d14b1b03bb79bf0",
+    "url": "/static/js/main.949b8d14.chunk.js"
   },
   {
     "revision": "e131a606c359732486e36909f4514211",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/static/media/milestones-header.fdac8dcd.jpg"
   },
   {
-    "revision": "7f1a24c9d9e4cb612f79193cb889198a",
+    "revision": "1a2999e70a038009c2a814bc63e11968",
     "url": "/index.html"
   }
 ];
