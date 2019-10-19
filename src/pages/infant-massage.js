@@ -11,7 +11,7 @@ export class InfantMassage extends React.Component {
     return (
       <>
         <Title text="Infant Massage" />
-        <Page image={images['infant-massage']} text={texts['infant-massage']} />
+        <Page image={images['infant-massage']} title="Warmth. Touch. Bonding." text={texts['infant-massage']} />
       </>
     );
   }
