@@ -10,7 +10,7 @@ export class InfantMassage extends React.Component {
     window.scrollTo(0, 0)
     return (
       <>
-        <Title text="INFANT MASSAGE" />
+        <Title text="Infant Massage" />
         <Page image={images['infant-massage']} text={texts['infant-massage']} />
       </>
     );

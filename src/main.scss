@@ -8,11 +8,11 @@
     color: $color-header;
     color: $color-green-dark;
     font-size: 20px;
+    margin-bottom: -4px;
 
     @media (max-width: $max-mobile-width) {
       margin: 16px;
       margin-top: 32px;
-      margin-bottom: -4px;
     }
   }
 
@@ -41,6 +41,10 @@ h3 {
   margin-top: 16px;
   margin-bottom: 16px;
   opacity: 0.2;
+}
+
+.page-link-top-margin {
+  margin-top: 16px;
 }
 
 .page-header-image {

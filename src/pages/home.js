@@ -11,18 +11,22 @@ export class Home extends React.Component {
     return (
       <>
         <div className="logo-home" onClick={() => window.location = '/'} />
-        {sections.map((section, index) => (
-          <SectionLink
-            key={index}
-            href={section.href}
-            image={images[section.image]}
-            title={section.title}
-            reverse={index % 2 === 1}
-            subtitles={section.subtitles}
-            color={section.color}
-          />
+        {sections.filter(section => !section.disabled).map((section, index) => (
+          this.renderSectionLink(section, index)
         ))}
       </>
     )
+  }
+
+  renderSectionLink(section, index) {
+    return <SectionLink
+      key={index}
+      href={section.href}
+      image={images[section.image]}
+      title={section.title}
+      reverse={index % 2 === 1}
+      subtitles={section.subtitles}
+      color={section.color}
+    />
   }
 }

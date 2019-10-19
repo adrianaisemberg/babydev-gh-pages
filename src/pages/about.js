@@ -12,7 +12,7 @@ export class About extends React.Component {
     return (
       <>
         <Title text="About" />
-        <Page image={images['about-me']} title='LILACH AISEMBERG' text={texts['about']} />
+        <Page image={images['about-me']} title='Lilach Aisemberg' text={texts['about']} />
       </>
     );
   }

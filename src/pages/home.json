@@ -5,9 +5,9 @@
     "_image": "milestones",
     "title": "Milestones",
     "subtitles": [
-      "FOUNDATION.",
-      "DEVELOPMENT.",
-      "EXPERIENCE."
+      "Foundation.",
+      "Development.",
+      "Experience."
     ],
     "color": "#fe4e80"
   },
@@ -16,9 +16,9 @@
     "image": "services",
     "title": "Services",
     "subtitles": [
-      "HANDS-ON.",
-      "HOLISTIC.",
-      "INNOVATIVE."
+      "Hands-On.",
+      "Holistic.",
+      "Innovative."
     ],
     "color": "#00aeef"
   },
@@ -27,30 +27,31 @@
     "image": "method",
     "title": "The Method",
     "subtitles": [
-      "TEACH.",
-      "SUPPORT.",
-      "CHALLENGE."
+      "Teach.",
+      "Support.",
+      "Challenge."
     ],
     "color": "#98c67f"
   },
   {
     "href": "/infant-massage",
     "image": "infant-massage",
-    "title": "INFANT MASSAGE",
+    "title": "Infant Massage",
     "subtitles": [
-      "WARMTH.",
-      "TOUCH.",
-      "BONDING."
+      "Warmth.",
+      "Touch.",
+      "Bonding."
     ],
-    "color": "#ffc74f"
+    "color": "#ffc74f",
+    "disabled": true
   },
   {
     "href": "/about",
     "image": "about-me",
     "title": "About Me",
     "subtitles": [
-      "DO WHAT YOU LOVE.",
-      "LOVE WHAT YOU DO."
+      "Do What You Love.",
+      "Love What You Do."
     ],
     "color": "#444444"
   }
