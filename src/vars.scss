@@ -18,9 +18,9 @@ $color-gray-light: #7c7c7c;
 $color-gray-light-transparent: #7c7c7c10;
 $color-gray-dark: #333;
 
-$color-leg-yellow: #ffc74f;
-$color-leg-blue: #00aeef;
-$color-leg-red: #fe4e80;
+$color-leg-yellow: $color-yellow-dark;
+$color-leg-blue: $color-blue-dark;
+$color-leg-red: $color-red-dark;
 
 $color-text: $color-gray-light;
 $color-header: $color-gray-dark;
