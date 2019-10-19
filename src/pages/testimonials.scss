@@ -50,4 +50,8 @@
   .testimonial-container:nth-child(3n) .testimonial:before {
     color: $color-blue-dark;
   }
+
+  .testimonial-container:nth-child(4n) .testimonial:before {
+    color: $color-yellow-dark;
+  }
 }

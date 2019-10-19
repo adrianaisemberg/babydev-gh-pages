@@ -16,7 +16,6 @@
     color: $color-green-dark;
     background: $color-green-light;
     line-height: 1em;
-    text-transform: uppercase;
     padding: 8px 0;
 
     @media (max-width: $max-mobile-width) {
@@ -61,14 +60,7 @@
   }
 
   .next-milestone-title {
-    margin-top: 64px;
-    color: $color-green-dark;
-    font-size: 20px;
-    margin-bottom: 12px;
-
-    @media (max-width: $max-mobile-width) {
-      margin-left: 8px;
-    }
+    margin-bottom: 16px;
   }
 
   .next-milestone {

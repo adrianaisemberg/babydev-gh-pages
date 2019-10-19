@@ -25,7 +25,7 @@ export class Page extends React.Component {
 
   renderNextMilestone(next_milestone) {
     return <>
-      <div className={classNames("next-milestone-title")}>Next Milestone:</div>
+      <h4 className={classNames("next-milestone-title")}>Next Milestone:</h4>
       <PageLink
         className={classNames("next-milestone")}
         href={`/milestone/${next_milestone.href}`}
