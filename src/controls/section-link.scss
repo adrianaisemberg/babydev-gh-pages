@@ -50,6 +50,10 @@
     margin: 8px;
     font-size: 24px;
 
+    @media (max-width: $max-mobile-width) {
+      right: 0;
+    }
+
     p {
       margin: 0;
     }
