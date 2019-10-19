@@ -1,0 +1,30 @@
+@import './../vars.scss';
+
+.page-title {
+  h1 {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: $color-blue-1;
+  
+    @media (max-width: $max-mobile-width) {
+      margin-top: 16px;
+    }  
+  }
+
+  .logo {
+    display: none;
+  
+    @media (max-width: $max-mobile-width) {
+      display: block;
+      background-image: url('./../images/logo_feet_625x242.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      
+      background-position-x: 50%;
+      height: 50px;
+      margin-top: 8px;
+      margin-bottom: 4px;
+    }
+  }  
+}
