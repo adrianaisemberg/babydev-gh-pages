@@ -11,7 +11,7 @@ export class Testimonials extends React.Component {
     window.scrollTo(0, 0)
     return (
       <div className={classNames("testimonials", "column")}>
-        <Title text="TESTIMONIALS" />
+        <Title text="Testimonials" />
         <div>{this.renderTestimonials()}</div>
       </div>
     )

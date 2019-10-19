@@ -25,7 +25,7 @@ export class Milestones extends React.Component {
 
     return (
       <>
-        <Title text="MILESTONES" />
+        <Title text="Milestones" />
         <div className={classNames("page-header-image")}><img src={images['milestones-header']} alt='' /></div>
         <div className={classNames("content", "column")}>{pageLinks}</div>
       </>

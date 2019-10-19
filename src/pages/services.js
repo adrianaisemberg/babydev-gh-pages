@@ -28,7 +28,7 @@ export class Services extends React.Component {
 
     return (
       <>
-        <Title text="SERVICES" />
+        <Title text="Services" />
         <div className={classNames("services", "column", "page")}>
           <div className={classNames("page-header-image")}><img src={images['services-header']} alt='' /></div>
           {intro}

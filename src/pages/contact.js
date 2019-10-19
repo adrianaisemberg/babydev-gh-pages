@@ -9,7 +9,7 @@ export class Contact extends React.Component {
     window.scrollTo(0, 0)
     return (
       <div className={classNames("content", "column")}>
-        <Title text="CONTACT"/>
+        <Title text="Contact"/>
         <form name='contact' action='https://formspree.io/lilachberko@gmail.com' method='POST'>
           <input type="hidden" name="_subject" value="BabyDevStudio Contact" />
           <input type="hidden" name="_cc" value="adrianaisemberg@gmail.com" />

@@ -10,9 +10,9 @@ export class TheMethod extends React.Component {
     window.scrollTo(0, 0)
     return (
       <>
-        <Title text="THE METHOD" />
-        <Page title="TEACH · SUPPORT · CHALLENGE" text={texts['teach-support-challenge']} />
-        <Page title='HANDS-ON · HOLISTIC · INNOVATIVE' text={texts['hands-on']} />
+        <Title text="The Method" />
+        <Page title="Teach · Support · Challenge" text={texts['teach-support-challenge']} />
+        <Page title='Hands-On · Holistic · Innovative' text={texts['hands-on']} />
       </>
     );
   }

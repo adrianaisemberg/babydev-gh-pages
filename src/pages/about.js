@@ -11,7 +11,7 @@ export class About extends React.Component {
     window.scrollTo(0, 0)
     return (
       <>
-        <Title text="ABOUT" />
+        <Title text="About" />
         <Page image={images['about-me']} title='LILACH AISEMBERG' text={texts['about']} />
       </>
     );
