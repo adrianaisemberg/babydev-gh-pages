@@ -2,13 +2,14 @@ import * as React from 'react';
 import { Page } from './page';
 import { texts } from '../texts';
 import './../main.scss';
+import { Title } from '../controls/title';
 
 export class Disclaimer extends React.Component {
   render() {
     window.scrollTo(0, 0)
     return (
       <>
-        <h1>DISCLAIMER OF ADVICE</h1>
+        <Title text="DISCLAIMER OF ADVICE" />
         <Page text={texts['disclaimer']} />
       </>
     );

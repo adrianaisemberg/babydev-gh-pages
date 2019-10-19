@@ -3,13 +3,14 @@ import { Page } from './page';
 import { images } from '../images';
 import { texts } from '../texts';
 import './../main.scss';
+import { Title } from '../controls/title';
 
 export class InfantMassage extends React.Component {
   render() {
     window.scrollTo(0, 0)
     return (
       <>
-        <h1>INFANT MASSAGE</h1>
+        <Title text="INFANT MASSAGE" />
         <Page image={images['infant-massage']} text={texts['infant-massage']} />
       </>
     );

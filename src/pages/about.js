@@ -4,13 +4,14 @@ import { images } from '../images';
 import { texts } from '../texts';
 import './../main.scss';
 import './about.scss';
+import { Title } from '../controls/title';
 
 export class About extends React.Component {
   render() {
     window.scrollTo(0, 0)
     return (
       <>
-        <h1>ABOUT</h1>
+        <Title text="ABOUT" />
         <Page image={images['about-me']} title='LILACH AISEMBERG' text={texts['about']} />
       </>
     );

@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './contact.scss';
 import './../main.scss';
+import { Title } from '../controls/title';
 var classNames = require('classnames');
 
 export class Contact extends React.Component {
@@ -8,7 +9,7 @@ export class Contact extends React.Component {
     window.scrollTo(0, 0)
     return (
       <div className={classNames("content", "column")}>
-        <h1>CONTACT</h1>
+        <Title text="CONTACT"/>
         <form name='contact' action='https://formspree.io/lilachberko@gmail.com' method='POST'>
           <input type="hidden" name="_subject" value="BabyDevStudio Contact" />
           <input type="hidden" name="_cc" value="adrianaisemberg@gmail.com" />

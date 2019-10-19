@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { SectionLink } from '../controls/section-link';
 import { images } from '../images';
+import './../app.scss';
+
 var sections = require('./home.json');
 
 export class Home extends React.Component {
@@ -8,6 +10,7 @@ export class Home extends React.Component {
     window.scrollTo(0, 0)
     return (
       <>
+        <div className="logo-home" onClick={() => window.location = '/'} />
         {sections.map((section, index) => (
           <SectionLink
             key={index}
