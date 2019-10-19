@@ -1,7 +1,12 @@
 @import './vars.scss';
 
 .content {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: $min-desktop-width) {
+    margin-top: 16px;
+  }
 
   h4 {
     color: $color-header;

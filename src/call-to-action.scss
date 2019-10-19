@@ -6,10 +6,12 @@
   margin: 64px;
 
   a {
-    padding: 32px;
+    padding: 8px;
     text-decoration: none;
     color: $color-red-dark;
-    font-size: 24px;
+    background: $color-red-light;
+    border: 1px solid $color-red-dark-transparent;
+    font-size: $font-size-large;
   }
 }
 
