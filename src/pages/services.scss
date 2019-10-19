@@ -7,10 +7,6 @@
     margin: 4px 0;
   }
 
-  li {
-    color: $color-gray-1;
-  }
-
   .service-header {
     margin: 12px 0;
     div {
@@ -42,7 +38,7 @@
 
   .service {
     margin: 56px 0;
-    border: 1px solid $color-blue-4;
+    border: 1px solid $color-blue-light;
 
     @media (max-width: $max-mobile-width) {
       margin: 56px 24px;
@@ -56,12 +52,12 @@
   }
 
   .service-title {
-    background: $color-blue-4;
+    background: $color-blue-light;
     padding: 8px;
 
     > div {
       font-size: 24px;
-      color: $color-blue-3;
+      color: $color-blue-dark;
     }
   }
 
@@ -70,16 +66,16 @@
   }
 
   .prices p {
-    color: $color-green-1;
+    color: $color-green-dark;
   }
 
   .duration {
-    color: $color-red-1;
+    color: $color-red-dark;
   }
 
   .line {
     height: 1px;
-    background: $color-blue-1;
+    background: $color-blue-dark;
   }
 }
 

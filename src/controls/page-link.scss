@@ -5,7 +5,6 @@
   display: flex;
   flex-direction: row;
   transition: background-color 0.5s ease-in-out;
-  color: $color-gray-2;
 
   .img-container {
     position: relative;
@@ -21,7 +20,7 @@
   }
 
   &:hover {
-    background: $color-gray-1-a10;
+    background: $color-gray-light-transparent;
 
     .img-over {
       opacity: 1;
@@ -44,7 +43,7 @@
     transition: color 0.5s ease-in-out;
     font-size: 18px;
     margin: 0;
-    color: $color-green-1;
+    color: $color-green-dark;
     margin-bottom: 4px;
     
     &.small {
@@ -55,7 +54,7 @@
   h2 {
     font-size: 16px;
     margin: 0;
-    color: $color-gray-1;
+    color: $color-gray-light;
   }
 
   @media (max-width: $max-mobile-width) {

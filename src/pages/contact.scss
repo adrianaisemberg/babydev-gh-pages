@@ -15,11 +15,11 @@ form {
       width: 100%;
       padding: 8px;
       margin-top: 4px;
-      border: 1px solid $color-green-1;
+      border: 1px solid $color-green-dark;
 
       &[type='submit'] {
-        border: 1px solid $color-blue-1;
-        background: $color-blue-1-a10;
+        border: 1px solid $color-blue-dark;
+        background: $color-blue-light;
         width: 20%;
       }
     }

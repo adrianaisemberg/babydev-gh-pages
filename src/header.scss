@@ -57,18 +57,18 @@ header {
       padding: 1em;
       letter-spacing: 1px;
       text-decoration: none;
-      color: $color-blue-1;
+      color: $color-blue-dark;
       transition: color 0.5s ease;
 
       &:hover {
-        color: $color-red-2;
+        color: $color-red-dark;
       }
     
       &.active {
-        // color: $color-red-1;
+        // color: $color-red-dark;
 
         &:hover {
-          color: $color-red-3;
+          color: $color-red-dark;
         }
       }
     }

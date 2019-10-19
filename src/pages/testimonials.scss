@@ -16,18 +16,17 @@
 
   .testimonial-separator {
     height: 1px;
-    background: $color-red-1;
+    background: $color-red-light;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 32px;
     margin-bottom: 32px;
-    opacity: 0.3;
   }
 
   blockquote {
     font-style: italic;
     line-height: 32px;
-    color: $color-gray-1;
+    color: $color-gray-light;
 
     @media (max-width: $max-mobile-width) {
       font-size: 16px;
@@ -36,7 +35,7 @@
 
   .testimonial:before {
     content: "\201C";
-    color: $color-green-1;
+    color: $color-green-dark;
     font-family: Georgia, serif;
     font-size: 60px;
     font-weight: bold;
@@ -45,10 +44,10 @@
   }
 
   .testimonial-container:nth-child(2n) .testimonial:before {
-    color: $color-red-1;
+    color: $color-red-dark;
   }
 
   .testimonial-container:nth-child(3n) .testimonial:before {
-    color: $color-blue-1;
+    color: $color-blue-dark;
   }
 }
