@@ -9,9 +9,13 @@
     padding: 8px;
     text-decoration: none;
     color: $color-red-dark;
-    background: $color-red-light;
-    border: 1px solid $color-red-dark-transparent;
+    border: 1px solid $color-red-dark;
     font-size: $font-size-large;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background: $color-red-light;
+    }
   }
 }
 
