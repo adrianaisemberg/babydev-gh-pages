@@ -5,9 +5,13 @@
   position: relative;
 
   h1, h2 {
-    text-align: center;
     margin: 0;
     width: 100%;
+    padding-left: 16px;
+
+    @media (min-width: $min-desktop-width) {
+      text-align: center;
+    }
   }
 
   h1 {
@@ -16,7 +20,8 @@
     color: $color-green-dark;
     background: $color-green-light;
     line-height: 1em;
-    padding: 8px 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
 
     @media (max-width: $max-mobile-width) {
       font-size: 24px;
