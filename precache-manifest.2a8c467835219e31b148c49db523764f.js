@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/army-crawl-bw.a506979b.jpg"
   },
   {
-    "revision": "242204e60cae853cb5ff",
-    "url": "/static/css/main.d070dedc.chunk.css"
+    "revision": "9a228acef7de86d6b21c",
+    "url": "/static/css/main.29a9ee07.chunk.css"
   },
   {
     "revision": "e4a1a71d8185d8795542",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/home-milestones.79e2db2c.jpg"
   },
   {
-    "revision": "bf383ea11d9216ecfdf27555cef29a35",
-    "url": "/static/media/infant-massage.bf383ea1.jpg"
+    "revision": "ba23ca11063acd064dbed6f8edc88c82",
+    "url": "/static/media/baby-massage.ba23ca11.jpg"
   },
   {
     "revision": "41472a2a51732b44275b9e9d8e63b012",
@@ -68,8 +68,8 @@ self.__precacheManifest = [
     "url": "/static/media/army-crawl.139f7879.jpg"
   },
   {
-    "revision": "242204e60cae853cb5ff",
-    "url": "/static/js/main.242204e6.chunk.js"
+    "revision": "9a228acef7de86d6b21c",
+    "url": "/static/js/main.9a228ace.chunk.js"
   },
   {
     "revision": "339f2163bf304776b7fa9f671471c424",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/static/media/testimonials-4.c1f99d1e.jpg"
   },
   {
-    "revision": "0e48d2dd693aa137c9ed48af0f3e7832",
+    "revision": "c00f6ca0ccbe123ba1ef680272776669",
     "url": "/index.html"
   }
 ];
