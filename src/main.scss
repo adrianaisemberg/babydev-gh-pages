@@ -45,6 +45,13 @@ h3 {
   margin-top: 16px;
   margin-bottom: 16px;
   opacity: 0.2;
+
+  @media (max-width: $max-mobile-width) {
+    opacity: 0.3;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .page-link-top-margin {
