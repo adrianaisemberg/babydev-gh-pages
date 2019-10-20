@@ -14,9 +14,9 @@ export class Contact extends React.Component {
           <p >I’m here to help you gain or strengthen your parenting gut!</p>
           <p >Please send me a message. Let me know how can I help you and your baby.</p>
         </div>
-        <form name='contact' action='https://formspree.io/lilachberko@gmail.com' method='POST'>
+        <form name='contact' action='https://formspree.io/lilach@babydevstudio.com' method='POST'>
           <input type="hidden" name="_subject" value="BabyDevStudio Contact" />
-          <input type="hidden" name="_cc" value="adrianaisemberg@gmail.com" />
+          <input type="hidden" name="_cc" value="adrianaisemberg@gmail.com,lilachberko@gmail.com" />
           <div className="input">
             <label htmlFor='form.name'>Name</label>
             <div><input type='text' name='Name' id='form.name' required /></div>
