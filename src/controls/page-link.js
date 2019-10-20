@@ -21,7 +21,7 @@ export class PageLink extends React.Component {
   renderImage(image, imageOver) {
     return (
       <div className="img-container">
-        <img src={image} alt='' />
+        <img src={image} alt='' className="img-bw"/>
         <img src={imageOver} alt='' className="img-over" />
       </div>
     )
