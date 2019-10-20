@@ -10,7 +10,7 @@ var classNames = require('classnames');
 export class Page extends React.Component {
   render() {
     window.scrollTo(0, 0)
-    const { image, title, subtitle, text, next_milestone } = this.props;
+    const { image, title, subtitle, text, next_milestone, feet } = this.props;
     return (
       <div className={classNames("content", "column", "page")}>
         <img src={image} alt='' className={classNames("page-image")} />
@@ -19,7 +19,8 @@ export class Page extends React.Component {
         {text.map((t, i) => {
           return <div key={i}>{this.renderContent(t)}</div>
         })}
-        <CallToAction/>
+        {feet ? <div className="feet" /> : null}
+        <CallToAction />
         {next_milestone ? this.renderNextMilestone(next_milestone) : null}
       </div>
     );

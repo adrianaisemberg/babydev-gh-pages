@@ -28,6 +28,7 @@ export const images = {
   'milestones-header': require('./images/milestones-header.jpg'),
   'challenge': require('./images/challenge.jpg'),
   'holistic': require('./images/holistic.jpg'),
+  'feet': require('./images/feet.png'),
   'testimonials-1': require('./images/testimonials-1.jpg'),
   'testimonials-2': require('./images/testimonials-2.jpg'),
   'testimonials-3': require('./images/testimonials-3.jpg'),
