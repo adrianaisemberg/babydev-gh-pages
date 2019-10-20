@@ -16,9 +16,10 @@ form {
       padding: 8px;
       margin-top: 4px;
       border: 1px solid $color-green-dark-transparent;
-      color: $color-gray-dark;
+      color: black;
 
       &[type='submit'] {
+        cursor: pointer;
         color: $color-blue-dark;
         border: 1px solid $color-blue-dark;
         font-family: 'Lora', serif;
