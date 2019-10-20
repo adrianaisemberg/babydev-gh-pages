@@ -40,7 +40,13 @@
   }
 
   .testimonial:before {
-    content: "\201C";
+    background-image: url('./../images/foot-red.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 48px;
+    height: 48px;
+
+  content: " ";
     color: $color-green-dark;
     font-family: Georgia, serif;
     font-size: 60px;
@@ -50,14 +56,17 @@
   }
 
   .testimonial-container:nth-child(2n) .testimonial:before {
+    background-image: url('./../images/foot-green.png');
     color: $color-red-dark;
   }
 
   .testimonial-container:nth-child(3n) .testimonial:before {
+    background-image: url('./../images/foot-blue.png');
     color: $color-blue-dark;
   }
 
   .testimonial-container:nth-child(4n) .testimonial:before {
+    background-image: url('./../images/foot-yellow.png');
     color: $color-yellow-dark;
   }
 }
