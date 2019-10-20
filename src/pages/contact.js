@@ -14,16 +14,15 @@ export class Contact extends React.Component {
           <p >I’m here to help you gain or strengthen your parenting gut!</p>
           <p >Please send me a message. Let me know how can I help you and your baby.</p>
         </div>
-        <form name='contact' action='https://formspree.io/lilach@babydevstudio.com' method='POST'>
-          <input type="hidden" name="_subject" value="BabyDevStudio Contact" />
-          <input type="hidden" name="_cc" value="adrianaisemberg@gmail.com,lilachberko@gmail.com" />
+
+        <form name='contact' action='https://getform.io/f/592d77a3-8405-494b-83be-dbcb8ce2041b' method='POST'>
           <div className="input">
             <label htmlFor='form.name'>Name</label>
             <div><input type='text' name='Name' id='form.name' required /></div>
           </div>
           <div className="input">
             <label htmlFor='form.babyname'>Your baby's name and age, unless still pregnant</label>
-            <div><input type='text' name='Name' id='form.babyname' /></div>
+            <div><input type='text' name='Baby' id='form.babyname' /></div>
           </div>
           <div className="input">
             <label htmlFor='form.email'>Email</label>
