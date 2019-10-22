@@ -36,7 +36,7 @@ header {
     overflow: hidden;
     clear: both;
     transition: max-height .3s cubic-bezier(0.63, 0, 0.25, 1);
-    font-family: 'Muli', sans-serif;
+    font-family: $font-secondary;
     font-style: normal;
 
     &.expanded {

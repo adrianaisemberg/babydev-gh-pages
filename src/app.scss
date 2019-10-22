@@ -4,7 +4,7 @@
 
 body {
   margin: auto;
-  font-family: 'Lora', serif;
+  font-family: $font-primary;
   font-style: italic;
   -webkit-font-smoothing: antialiased;
   color: $color-text;
@@ -37,16 +37,16 @@ h2, h4 {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Muli', sans-serif;
+  font-family: $font-secondary;
   font-style: normal;
 }
 
 .alt-font {
-  font-family: 'Muli', sans-serif;
+  font-family: $font-secondary;
   font-style: normal;
 }
 
 .primary-font {
-  font-family: 'Lora', serif;
+  font-family: $font-primary;
   font-style: italic;
 }

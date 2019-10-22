@@ -1,10 +1,10 @@
 @import './../vars.scss';
 
 form {
-  font-family: 'Muli', sans-serif;
+  font-family: $font-secondary;
   font-style: normal;
   font-weight: normal;
-  
+
   .input {
     margin: auto;
     width: 80%;

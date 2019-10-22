@@ -31,7 +31,7 @@
   .service {
     margin: 56px 0;
     border: 1px solid $color-blue-dark;
-    font-family: 'Muli', sans-serif;
+    font-family: $font-secondary;
     font-style: normal;
 
     @media (max-width: $max-mobile-width) {
