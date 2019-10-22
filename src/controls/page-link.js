@@ -28,10 +28,9 @@ export class PageLink extends React.Component {
   }
 
   renderTitle() {
-    const { title, small } = this.props;
-    const className = small ? "small" : "";
+    const { title } = this.props;
     return typeof title === 'string' ?
-      <h1 className={className}>{title}</h1> :
-      title.map((t, i) => <h1 key={i} className={className}>{t}</h1>);
+      <h1>{title}</h1> :
+      title.map((t, i) => <h1 key={i}>{t}</h1>);
   }
 }

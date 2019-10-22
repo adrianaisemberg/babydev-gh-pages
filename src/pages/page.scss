@@ -1,4 +1,4 @@
-@import './../vars.scss';
+@import './../app.scss';
 
 .page {
   margin: auto;
@@ -16,11 +16,9 @@
   }
 
   h1 {
-    font-size: 24px;
     top: 0;
     color: $color-green-dark;
     background: $color-green-light;
-    line-height: 1em;
     padding-top: 8px;
     padding-bottom: 8px;
   }

@@ -1,4 +1,4 @@
-@import './vars.scss';
+@import './app.scss';
 
 $color-hamburger: white;
 $color-hamburger-background: #66666650;
@@ -139,10 +139,6 @@ header {
 
       li {
         padding: 16px 0;
-
-        a {
-          font-size: 100%;
-        }
       }
     }
   }

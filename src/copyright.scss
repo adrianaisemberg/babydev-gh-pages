@@ -1,8 +1,8 @@
-@import './vars.scss';
+@import './app.scss';
 
 .copyright {
   color: $color-text;
-  font-size: 12px;
+  font-size: $font-size-small;
   text-align: center;
   margin-top: 24px;
   margin-bottom: 12px;

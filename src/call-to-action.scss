@@ -1,4 +1,4 @@
-@import './vars.scss';
+@import './app.scss';
 
 .call-to-action {
 
@@ -10,7 +10,7 @@
     text-decoration: none;
     color: $color-red-dark;
     border: 1px solid $color-red-dark;
-    font-size: $font-size-large;
+    font-size: $font-size-medium;
     transition: background-color 0.3s ease-in-out;
 
     &:hover {

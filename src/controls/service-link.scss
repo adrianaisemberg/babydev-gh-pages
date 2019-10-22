@@ -1,12 +1,8 @@
-@import './../vars.scss';
+@import './../app.scss';
 
 .service-link {
   text-align: center;
   margin-bottom: 64px;
-
-  h1 {
-    font-size: 26px;
-  }
 
   h2 {
     font-size: $font-size-medium;

@@ -7,8 +7,10 @@ body {
   font-style: italic;
   -webkit-font-smoothing: antialiased;
   color: $color-text;
+}
 
-  // font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+* {
+  font-weight: 100;
 }
 
 #root {
@@ -16,6 +18,11 @@ body {
   margin: auto;
 }
 
-* {
-  font-weight: 100;
+h1 {
+  line-height: 1em;
+  font-size: $font-size-large;
+}
+
+h2 {
+  font-size: $font-size-medium;
 }

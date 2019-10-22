@@ -1,4 +1,4 @@
-@import './../vars.scss';
+@import './../app.scss';
 
 form {
   .input {
@@ -24,7 +24,7 @@ form {
         border: 1px solid $color-blue-dark;
         font-family: 'Lora', serif;
         font-style: italic;
-        font-size: 20px;
+        font-size: $font-size-medium;
         text-align: left;
         margin: 0;
         padding: 8px;

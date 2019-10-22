@@ -1,4 +1,4 @@
-@import './../vars.scss';
+@import './../app.scss';
 
 .testimonials {
 
@@ -33,10 +33,6 @@
     font-style: italic;
     line-height: 32px;
     color: $color-gray-light;
-
-    @media (max-width: $max-mobile-width) {
-      font-size: 16px;
-    }
   }
 
   .testimonial:before {
