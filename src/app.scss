@@ -1,5 +1,6 @@
 @import './vars.scss';
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400italic');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400italic');
 
 body {
   margin: auto;
@@ -25,4 +26,19 @@ h1 {
 
 h2 {
   font-size: $font-size-medium;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+}
+
+.alt-font {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+}
+
+.primary-font {
+  font-family: 'Lora', serif;
+  font-style: italic;
 }

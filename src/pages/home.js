@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SectionLink } from '../controls/section-link';
 import { images } from '../images';
-import './../app.scss';
+import './../vars.scss';
 import './home.scss';
 import { CallToAction } from '../call-to-action';
 
@@ -29,6 +29,7 @@ export class Home extends React.Component {
       title={section.title}
       reverse={index % 2 === 1}
       subtitles={section.subtitles}
+      subtitle={section.subtitle}
       color={section.color}
     />
   }

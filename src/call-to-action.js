@@ -6,7 +6,7 @@ var classNames = require('classnames');
 export class CallToAction extends React.Component {
   render() {
     return (
-      <div className={classNames("call-to-action")}><Link to='/contact'>Contact me today!</Link></div>
+      <div className={classNames("call-to-action", "alt-font")}><Link to='/contact'>Contact me today!</Link></div>
     )
   }
 }

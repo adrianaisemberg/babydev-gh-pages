@@ -1,4 +1,4 @@
-@import './../app.scss';
+@import './../vars.scss';
 
 form {
   .input {
@@ -22,8 +22,8 @@ form {
         cursor: pointer;
         color: $color-blue-dark;
         border: 1px solid $color-blue-dark;
-        font-family: 'Lora', serif;
-        font-style: italic;
+        font-family: 'Muli', sans-serif;
+        font-style: normal;
         font-size: $font-size-medium;
         text-align: left;
         margin: 0;

@@ -9,6 +9,7 @@
       "Development.",
       "Experience."
     ],
+    "subtitle": "Foundation. Development. Experience.",
     "color": "#fe4e80"
   },
   {
@@ -20,6 +21,7 @@
       "Holistic.",
       "Innovative."
     ],
+    "subtitle": "Hands-On. Holistic. Innovative.",
     "color": "#00aeef"
   },
   {
@@ -31,6 +33,7 @@
       "Support.",
       "Challenge."
     ],
+    "subtitle": "Teach. Support. Challenge.",
     "color": "#98c67f"
   },
   {
@@ -42,6 +45,7 @@
       "Touch.",
       "Bonding."
     ],
+    "subtitle": "Warmth. Touch. Bonding.",
     "color": "#ffc74f"
   },
   {
@@ -52,6 +56,7 @@
       "Do What You Love.",
       "Love What You Do."
     ],
+    "subtitle": "Do What You Love. Love What You Do.",
     "color": "#444444"
   }
 ]

@@ -5,7 +5,7 @@ var classNames = require('classnames');
 
 export class SectionLink extends React.Component {
   render() {
-    const { href, image, title, subtitles, reverse, color } = this.props;
+    const { href, image, title, subtitles, subtitle, reverse, color } = this.props;
     const lines = subtitles.map(line => {
       return <p key={line}>{line}</p>;
     });
@@ -21,7 +21,8 @@ export class SectionLink extends React.Component {
         </div>
         <div className="gradient-background" />
         <h1 style={style}>{title}</h1>
-        <h2>{lines}</h2>
+        <h2 className="lines">{lines}</h2>
+        <h2 className="subtitle">{subtitle}</h2>
       </Link>
     )
   }

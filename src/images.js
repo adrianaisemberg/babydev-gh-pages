@@ -6,7 +6,7 @@ export const images = {
   'milestones': require('./images/home-milestones.jpg'),
   'infant-massage': require('./images/baby-massage.jpg'),
   'services': require('./images/services.jpg'),
-  'method': require('./images/the-method.jpg'),
+  'method': require('./images/the-method-dark.jpg'),
   'about-me': require('./images/about-me.jpg'),
   'pre-birth': require('./images/pre-birth.jpg'),
   'pre-birth-bw': require('./images/pre-birth-bw.jpg'),
