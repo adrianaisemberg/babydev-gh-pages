@@ -9,7 +9,7 @@ export class ServiceLink extends React.Component {
 
     return (
       <div className={classNames("service")}>
-        <h2 className={classNames("service-title")}>{title}</h2>
+        <h2 className={classNames("service-title", "service-name")}>{title}</h2>
         <h2 className={classNames("service-title")}>{age}</h2>
         <div className={classNames("service-content")}>
           <h4>{subtitle}</h4>
