@@ -8,11 +8,7 @@
     margin: 0;
     padding-left: 16px;
     padding-right: 16px;
-
-    @media (min-width: $min-desktop-width) {
-      text-align: center;
-      padding-left: 0;
-    }
+    text-align: center;
   }
 
   h1 {
@@ -37,7 +33,7 @@
   }
 
   p {
-    font-size: $font-size-medium;
+    font-size: $font-size-medium-smaller;
     margin: 12px auto;
     line-height: 30px;
     color: $color-gray-light;

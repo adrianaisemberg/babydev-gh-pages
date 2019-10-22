@@ -28,11 +28,11 @@ h1 {
   }
 }
 
-h2 {
+h2, h4 {
   font-size: $font-size-medium;
 
   @media (max-width: $max-mobile-width) {
-    font-size: $font-size-small;
+    font-size: $font-size-medium-smaller;
   }
 }
 
