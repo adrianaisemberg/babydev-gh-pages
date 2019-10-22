@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/crawling.339f2163.jpg"
   },
   {
-    "revision": "03bea5033cd4ae728bf3",
-    "url": "/static/css/main.68647940.chunk.css"
+    "revision": "8831777435a0305dc7ac",
+    "url": "/static/css/main.04b6ab51.chunk.css"
   },
   {
-    "revision": "10afa41e172ea28edda1",
-    "url": "/static/js/1.10afa41e.chunk.js"
+    "revision": "e7c450076e54c24dd43c",
+    "url": "/static/js/1.e7c45007.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/services.41472a2a.jpg"
   },
   {
-    "revision": "308bb166dcbed58beb3f2c2f4f5bf70e",
-    "url": "/static/media/the-method.308bb166.jpg"
+    "revision": "6c9295634df79cec1ce62974095e7c6f",
+    "url": "/static/media/the-method-dark.6c929563.jpg"
   },
   {
     "revision": "85a885bb11b8d4d61bda81d7837089bb",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/static/media/army-crawl-bw.a506979b.jpg"
   },
   {
-    "revision": "03bea5033cd4ae728bf3",
-    "url": "/static/js/main.03bea503.chunk.js"
+    "revision": "8831777435a0305dc7ac",
+    "url": "/static/js/main.88317774.chunk.js"
   },
   {
     "revision": "9309c6870bc39af4002bc9321ab5020c",
@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/static/media/testimonials-4.c1f99d1e.jpg"
   },
   {
-    "revision": "0a7449689fc40d181ba2d9e044cb644e",
+    "revision": "156e30e1652561bb94f0b811b464bab4",
     "url": "/index.html"
   }
 ];
