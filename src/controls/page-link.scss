@@ -39,16 +39,6 @@
   
   .page-link-text {
     margin-top: 4px;
-
-    @media (max-width: $max-mobile-width) {
-      h1 {
-        font-size: $font-size-medium;
-      }
-
-      h2 {
-        font-size: $font-size-small;
-      }
-    }
   }
 
   img {
@@ -69,10 +59,6 @@
   }
 
   @media (max-width: $max-mobile-width) {
-    h2 {
-      font-size: $font-size-small;
-    }
-
     .img-container {
       width: 30%;
     }

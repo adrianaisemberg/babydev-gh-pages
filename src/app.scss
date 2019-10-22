@@ -22,10 +22,18 @@ body {
 h1 {
   line-height: 1em;
   font-size: $font-size-large;
+
+  @media (max-width: $max-mobile-width) {
+    font-size: $font-size-medium;
+  }
 }
 
 h2 {
   font-size: $font-size-medium;
+
+  @media (max-width: $max-mobile-width) {
+    font-size: $font-size-small;
+  }
 }
 
 h1, h2, h3, h4 {
