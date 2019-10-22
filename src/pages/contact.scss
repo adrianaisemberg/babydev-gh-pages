@@ -3,7 +3,6 @@
 form {
   font-family: $font-secondary;
   font-style: normal;
-  font-weight: normal;
   padding: 0 20px;
 
   .input {
@@ -17,6 +16,7 @@ form {
       border: 1px solid $color-green-dark-transparent;
       color: black;
       box-sizing: border-box;
+      font-weight: normal;
 
       &[type='submit'] {
         cursor: pointer;
