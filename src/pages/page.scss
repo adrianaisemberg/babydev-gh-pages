@@ -57,19 +57,14 @@
     h1, h2 {
       text-align: unset;
       background: none;
-      padding-left: 8px;
-      padding-right: 8px;
+      padding: 4px 8px;
     }
 
     h1 {
       color: $color-green-dark;
-      padding-top: 8px;
-      padding-bottom: 8px;
     }
 
     h2 {
-      padding-top: 10px;
-      padding-bottom: 10px;
       color: $color-gray-dark;
     }
 
@@ -84,7 +79,7 @@
 
     .page-link-text {
       margin-top: 0;
-      
+
       @media (max-width: $max-mobile-width) {
         width: 100%;
       }
