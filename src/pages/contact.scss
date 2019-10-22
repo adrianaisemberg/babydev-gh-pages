@@ -1,6 +1,9 @@
 @import './../vars.scss';
 
 form {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+
   .input {
     margin: auto;
     width: 80%;
@@ -22,8 +25,6 @@ form {
         cursor: pointer;
         color: $color-blue-dark;
         border: 1px solid $color-blue-dark;
-        font-family: 'Muli', sans-serif;
-        font-style: normal;
         font-size: $font-size-medium;
         text-align: left;
         margin: 0;
