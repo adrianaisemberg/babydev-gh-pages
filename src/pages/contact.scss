@@ -4,16 +4,11 @@ form {
   font-family: $font-secondary;
   font-style: normal;
   font-weight: normal;
+  padding: 0 20px;
 
   .input {
     margin: auto;
-    width: 80%;
     margin-bottom: 16px;
-
-    @media (max-width: $max-mobile-width) {
-      margin: 16px;
-      width: 90%;
-    }
 
     input, textarea {
       width: 100%;
@@ -21,6 +16,7 @@ form {
       margin-top: 4px;
       border: 1px solid $color-green-dark-transparent;
       color: black;
+      box-sizing: border-box;
 
       &[type='submit'] {
         cursor: pointer;
