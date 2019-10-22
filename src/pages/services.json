@@ -12,7 +12,8 @@
   ],
   "services": [
     {
-      "title": "Welcome, New World - Babies aged 0-3 months",
+      "title": "Welcome, New World",
+      "age": "Babies aged 0-3 months",
       "subtitle": "Infant development private workshop",
       "duration": "<b>60</b> minutes per session",
       "description": [
@@ -43,7 +44,8 @@
       ]
     },
     {
-      "title": "Rolling Is Fun - Babies aged 3-7 months",
+      "title": "Rolling Is Fun",
+      "age": "Babies aged 3-7 months",
       "subtitle": "Infant development private workshop",
       "duration": "<b>60</b> minutes per session",
       "description": [
@@ -74,7 +76,8 @@
       ]
     },
     {
-      "title": "Crawling: It’s Time to Move On - Babies aged 5-12 months",
+      "title": "Crawling: It’s Time to Move On",
+      "age": "Babies aged 5-12 months",
       "subtitle": "Infant development private workshop",
       "duration": "<b>60</b> minutes per session",
       "description": [
@@ -114,7 +117,8 @@
       ]
     },
     {
-      "title": "Sitting All By Myself - Babies aged 6-12 months",
+      "title": "Sitting All By Myself",
+      "age": "Babies aged 6-12 months",
       "subtitle": "Infant development private workshop",
       "duration": "<b>60</b> minutes per session",
       "description": [
@@ -145,7 +149,8 @@
       ]
     },
     {
-      "title": "Walking Toward My Future - Babies aged 10-20 months",
+      "title": "Walking Toward My Future",
+      "age": "Babies aged 10-20 months",
       "subtitle": "Infant development private workshop",
       "duration": "<b>60</b> minutes per session",
       "description": [
@@ -176,7 +181,8 @@
       ]
     },
     {
-      "title": "Bonding Without Words - Babies aged 0-5 months",
+      "title": "Bonding Without Words",
+      "age": "Babies aged 0-5 months",
       "subtitle": "Infant massage private workshop",
       "duration": "<b>60</b> minutes per session. <b>3</b> sessions total.",
       "description": [
@@ -202,7 +208,8 @@
       ]
     },
     {
-      "title": "Tummy Time the Right Way - Babies aged 0-4 months",
+      "title": "Tummy Time the Right Way",
+      "age": "Babies aged 0-4 months",
       "subtitle": "Infant development private workshop",
       "duration": "<b>60</b> minutes per session",
       "description": [
@@ -222,7 +229,8 @@
       ]
     },
     {
-      "title": "Be Prepared - Pre-birth, from 7 months pregnant until birth",
+      "title": "Be Prepared",
+      "age": "Pre-birth, from 7 months pregnant until birth",
       "subtitle": "Infant development pre-birth private workshop",
       "duration": "<b>90</b> minutes per session",
       "description": [

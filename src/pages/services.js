@@ -18,6 +18,7 @@ export class Services extends React.Component {
       <ServiceLink
         key={index}
         title={service.title}
+        age={service.age}
         subtitle={service.subtitle}
         description={service.description}
         duration={service.duration}
