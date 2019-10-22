@@ -32,6 +32,8 @@
   .service {
     margin: 56px 0;
     border: 1px solid $color-blue-dark;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
 
     @media (max-width: $max-mobile-width) {
       margin: 56px 24px;
