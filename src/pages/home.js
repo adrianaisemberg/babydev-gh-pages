@@ -2,6 +2,7 @@ import * as React from 'react';
 import { SectionLink } from '../controls/section-link';
 import { images } from '../images';
 import './../app.scss';
+import './home.scss';
 import { CallToAction } from '../call-to-action';
 
 var sections = require('./home.json');

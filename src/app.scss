@@ -19,17 +19,3 @@ body {
 * {
   font-weight: 100;
 }
-
-.logo-home {
-  display: none;
-
-  @media (max-width: $max-mobile-width) {
-    display: block;
-    background-image: url('./images/logo_feet_625x242.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x: 50%;
-    height: 150px;
-    margin: 64px 0;
-  }
-}
