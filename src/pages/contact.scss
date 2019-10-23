@@ -3,9 +3,10 @@
 form {
   font-family: $font-secondary;
   font-style: normal;
+  padding: 0 70px;
 
-  @media (min-width: $min-desktop-width) {
-    padding: 0 70px;
+  @media (max-width: $max-mobile-width) {
+    padding: 0 18px;
   }
 
   .input {
