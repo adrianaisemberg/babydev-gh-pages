@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/crawling.339f2163.jpg"
   },
   {
-    "revision": "2b60ad02d1b397f021f7",
+    "revision": "28926bf58035678e2e63",
     "url": "/static/css/main.48df46b7.chunk.css"
   },
   {
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/static/media/army-crawl-bw.a506979b.jpg"
   },
   {
-    "revision": "2b60ad02d1b397f021f7",
-    "url": "/static/js/main.2b60ad02.chunk.js"
+    "revision": "28926bf58035678e2e63",
+    "url": "/static/js/main.28926bf5.chunk.js"
   },
   {
     "revision": "9309c6870bc39af4002bc9321ab5020c",
@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/static/media/testimonials-4.c1f99d1e.jpg"
   },
   {
-    "revision": "7e0860fd1a4c5d890abd28175fab374d",
+    "revision": "d824f7930c38da87b0bd5b99267a017d",
     "url": "/index.html"
   }
 ];
