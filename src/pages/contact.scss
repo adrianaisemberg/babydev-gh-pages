@@ -3,7 +3,6 @@
 form {
   font-family: $font-secondary;
   font-style: normal;
-  padding: 0 8px;
 
   @media (max-width: $max-mobile-width) {
     padding: 0 18px;
@@ -47,7 +46,6 @@ form {
 }
 
 .contact-intro {
-  margin-left: 8px;
   margin-bottom: 48px;
 
   @media (max-width: $max-mobile-width) {
