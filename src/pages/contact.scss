@@ -3,7 +3,10 @@
 form {
   font-family: $font-secondary;
   font-style: normal;
-  padding: 0 20px;
+
+  @media (min-width: $min-desktop-width) {
+    padding: 0 70px;
+  }
 
   .input {
     margin: auto;

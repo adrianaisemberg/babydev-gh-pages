@@ -5,6 +5,7 @@ import './app.scss';
 import { Copyright } from './copyright';
 import ReactGA from 'react-ga';
 import { createBrowserHistory } from 'history';
+import { Meta } from './meta';
 
 const history = createBrowserHistory();
 history.listen(location => {
@@ -17,6 +18,7 @@ export class App extends React.Component {
     this.initializeReactGA();
     return (
       <div>
+        <Meta />
         <Header />
         <Main />
         <Copyright />

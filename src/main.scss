@@ -63,7 +63,7 @@ h3 {
     height: 100%;
   }
 
-  width: 750px;
+  width: $column-width;
   margin: auto;
 
   @media (max-width: $max-mobile-width) {
