@@ -10,7 +10,8 @@
       "Experience."
     ],
     "subtitle": "Foundation. Development. Experience.",
-    "color": "#fe4e80"
+    "color": "#fe4e80",
+    "hover_color": "red"
   },
   {
     "href": "/services",
@@ -22,7 +23,8 @@
       "Innovative."
     ],
     "subtitle": "Hands-On. Holistic. Innovative.",
-    "color": "#00aeef"
+    "color": "#00aeef",
+    "hover_color": "blue"
   },
   {
     "href": "/the-method",
@@ -34,7 +36,8 @@
       "Challenge."
     ],
     "subtitle": "Teach. Support. Challenge.",
-    "color": "#98c67f"
+    "color": "#98c67f",
+    "hover_color": "green"
   },
   {
     "href": "/infant-massage",
@@ -46,7 +49,8 @@
       "Bonding."
     ],
     "subtitle": "Warmth. Touch. Bonding.",
-    "color": "#ffc74f"
+    "color": "#ffc74f",
+    "hover_color": "yellow"
   },
   {
     "href": "/about",
@@ -57,6 +61,7 @@
       "Love What You Do."
     ],
     "subtitle": "Do What You Love. Love What You Do.",
-    "color": "#444444"
+    "color": "#444444",
+    "hover_color": "gray"
   }
 ]

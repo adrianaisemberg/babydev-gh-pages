@@ -31,6 +31,7 @@ export class Home extends React.Component {
       subtitles={section.subtitles}
       subtitle={section.subtitle}
       color={section.color}
+      hover_color={section.hover_color}
     />
   }
 }

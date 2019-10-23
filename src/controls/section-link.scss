@@ -10,7 +10,23 @@
   position: relative;
   margin-bottom: 8px;
   
-  &:hover {
+  &.back-red:hover {
+    background: $color-red-light;
+  }
+
+  &.back-green:hover {
+    background: $color-green-light;
+  }
+
+  &.back-blue:hover {
+    background: $color-blue-light;
+  }
+
+  &.back-yellow:hover {
+    background: $color-yellow-light;
+  }
+
+  &.back-gray:hover {
     background: $color-gray-light-transparent;
   }
 

@@ -5,7 +5,7 @@ var classNames = require('classnames');
 
 export class SectionLink extends React.Component {
   render() {
-    const { href, image, title, subtitles, subtitle, reverse, color } = this.props;
+    const { href, image, title, subtitles, subtitle, reverse, color, hover_color } = this.props;
     const lines = subtitles.map(line => {
       return <p key={line}>{line}</p>;
     });
@@ -15,7 +15,7 @@ export class SectionLink extends React.Component {
     };
 
     return (
-      <Link to={href} className={classNames("section-link", { "reverse": reverse })}>
+      <Link to={href} className={classNames("section-link", "back-" + hover_color, { "reverse": reverse })}>
         <div className="image-container">
           <img src={image} alt='' />
           <h2 className="lines">{lines}</h2>
