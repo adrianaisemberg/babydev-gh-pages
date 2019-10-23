@@ -3,7 +3,7 @@
 form {
   font-family: $font-secondary;
   font-style: normal;
-  padding: 0 70px;
+  padding: 0 8px;
 
   @media (max-width: $max-mobile-width) {
     padding: 0 18px;
@@ -29,7 +29,7 @@ form {
         font-size: $font-size-medium;
         text-align: left;
         margin: 0;
-        padding: 8px;
+        padding: 8px 48px;
         width: auto;
         transition: background-color 0.3s ease-in-out;
         background: transparent;
@@ -47,10 +47,14 @@ form {
 }
 
 .contact-intro {
-  margin-left: 74px;
+  margin-left: 8px;
   margin-bottom: 48px;
 
   @media (max-width: $max-mobile-width) {
     margin-left: 16px;
   }
+}
+
+#form-send {
+  text-align: center;
 }

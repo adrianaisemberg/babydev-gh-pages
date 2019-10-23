@@ -36,7 +36,7 @@ export class Contact extends React.Component {
             <label htmlFor='form.text'>Message</label>
             <textarea name='message' id='form.message' rows={10} />
           </div>
-          <div className="input">
+          <div className="input" id='form-send'>
             <input type='submit' value='Send' />
           </div>
         </form>
