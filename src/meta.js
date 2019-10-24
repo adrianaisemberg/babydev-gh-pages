@@ -5,7 +5,7 @@ export class Meta extends React.Component {
   render() {
     var title = 'BabyDev Studio';
     var image = 'https://i.imgur.com/gFxjNKQ.png';
-var url = 'https://babydevstudio.com';
+    var url = 'https://babydevstudio.com';
 
     const meta = {
       title: title,
@@ -17,9 +17,9 @@ var url = 'https://babydevstudio.com';
         name: {
           keywords: 'react,meta,document,html,tags'
         },
-        "og:title": title,
         "twitter:title": title,
         "twitter:image": image,
+        "og:title": title,
         "og:image": image,
         "og:url": url
       }

@@ -18,7 +18,6 @@ export class App extends React.Component {
     this.initializeReactGA();
     return (
       <div>
-        <Meta />
         <Header />
         <Main />
         <Copyright />
