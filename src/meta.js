@@ -1,18 +1,30 @@
 import * as React from 'react';
+import DocumentMeta from 'react-document-meta';
 
 export class Meta extends React.Component {
   render() {
-    return (
-      <>
-        <meta property="og:title" content="BabyDev Studio" />
-        {/* <meta property="og:description" content="" /> */}
-        <meta property="og:image" content="https://i.imgur.com/gFxjNKQ.png" />
-        <meta property="og:url" content="https://babydevstudio.com" />
+    var title = 'BabyDev Studio';
+    var image = 'https://i.imgur.com/gFxjNKQ.png';
+var url = 'https://babydevstudio.com';
 
-        <meta name="twitter:title" content="BabyDev Studio" />
-        {/* <meta name="twitter:description" content="" /> */}
-        <meta name="twitter:image" content="https://i.imgur.com/gFxjNKQ.png" />
-      </>
-    )
+    const meta = {
+      title: title,
+      image: image,
+      // description: '',
+      // canonical: 'http://example.com/path/to/page',
+      meta: {
+        charset: 'utf-8',
+        name: {
+          keywords: 'react,meta,document,html,tags'
+        },
+        "og:title": title,
+        "twitter:title": title,
+        "twitter:image": image,
+        "og:image": image,
+        "og:url": url
+      }
+    };
+
+    return <DocumentMeta {...meta} />
   }
 }
