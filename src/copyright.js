@@ -8,12 +8,12 @@ export class Copyright extends React.Component {
     return (
       <>
         <div className={classNames("copyright")}>&copy; Copyright {(new Date().getFullYear())}, Lilach Aisemberg</div>
-        <div className={classNames("copyright", "copyright-links")}><Link to="" onClick={()=>this.mailto()}>lilach@babydevstudio.com</Link>  |  <Link to='/disclaimer'>Disclaimer</Link>  |  <Link to='/terms-of-use'>Terms</Link></div>
+        <div className={classNames("copyright", "copyright-links")}><Link to="" onClick={()=>this.mailto()}>lilac@babydevstudio.com</Link>  |  <Link to='/disclaimer'>Disclaimer</Link>  |  <Link to='/terms-of-use'>Terms</Link></div>
       </>
     )
   }
 
   mailto(){
-    window.location.href = "mailto:lilach@babydevstudio.com"
+    window.location.href = "mailto:lilac@babydevstudio.com"
   }
 }
