@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.b6d09975.chunk.css",
-  "main.js": "/static/js/main.87e16937.chunk.js",
-  "main.js.map": "/static/js/main.87e16937.chunk.js.map",
+  "main.css": "/static/css/main.2f5f70bc.chunk.css",
+  "main.js": "/static/js/main.de9f8256.chunk.js",
+  "main.js.map": "/static/js/main.de9f8256.chunk.js.map",
   "static/js/1.f25ad755.chunk.js": "/static/js/1.f25ad755.chunk.js",
   "static/js/1.f25ad755.chunk.js.map": "/static/js/1.f25ad755.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/walking-independently.jpg": "/static/media/walking-independently.331a671a.jpg",
-  "static/media/title.scss": "/static/media/logo_feet_625x242.055b0a62.png",
+  "static/media/title.scss": "/static/media/logo_feet_625x242.15a844ea.png",
   "static/media/baby-massage.jpg": "/static/media/baby-massage.bf67967f.jpg",
   "static/media/services.jpg": "/static/media/services.8cf57e06.jpg",
   "static/media/the-method.jpg": "/static/media/the-method.ca24b063.jpg",
@@ -35,8 +35,8 @@
   "static/media/about.scss": "/static/media/feet.e3e91102.png",
   "static/media/testimonials-1.jpg": "/static/media/testimonials-1.77f7137f.jpg",
   "static/media/testimonials-4.jpg": "/static/media/testimonials-4.eed3257a.jpg",
-  "static/css/main.b6d09975.chunk.css.map": "/static/css/main.b6d09975.chunk.css.map",
+  "static/css/main.2f5f70bc.chunk.css.map": "/static/css/main.2f5f70bc.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.c67ac56c41321d509ed9bacf52c27d98.js": "/precache-manifest.c67ac56c41321d509ed9bacf52c27d98.js",
+  "precache-manifest.6e77dcaca20cc09a989c30b0ce1e7ba0.js": "/precache-manifest.6e77dcaca20cc09a989c30b0ce1e7ba0.js",
   "service-worker.js": "/service-worker.js"
 }
