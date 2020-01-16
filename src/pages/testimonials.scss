@@ -6,7 +6,6 @@
 
   .testimonial {
     margin-top: 32px;
-    margin-bottom: 32px;
     position: relative;
 
     @media (max-width: $max-mobile-width) {
@@ -64,5 +63,15 @@
   .testimonial-container:nth-child(4n) .testimonial:before {
     background-image: url('./../images/foot-yellow.png');
     color: $color-yellow-dark;
+  }
+
+  .testimonial-name {
+    margin-top: 28px;
+    margin-left: 58px;
+    font-style: italic;
+
+    &::before {
+      content: "• ";
+    }
   }
 }
