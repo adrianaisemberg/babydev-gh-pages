@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/army-crawl-bw.3889fecc.jpg"
   },
   {
-    "revision": "2ad9268198ef5e3acaed",
-    "url": "/static/css/main.a430cef9.chunk.css"
+    "revision": "65cf9f72cf75bffc15bf",
+    "url": "/static/css/main.8b526743.chunk.css"
   },
   {
-    "revision": "f25ad7556581fb2e3f2a",
-    "url": "/static/js/1.f25ad755.chunk.js"
+    "revision": "b2542f38cc7c35d24bf9",
+    "url": "/static/js/1.b2542f38.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -68,8 +68,8 @@ self.__precacheManifest = [
     "url": "/static/media/army-crawl.bf6a2ec3.jpg"
   },
   {
-    "revision": "2ad9268198ef5e3acaed",
-    "url": "/static/js/main.2ad92681.chunk.js"
+    "revision": "65cf9f72cf75bffc15bf",
+    "url": "/static/js/main.65cf9f72.chunk.js"
   },
   {
     "revision": "339f2163bf304776b7fa9f671471c424",
@@ -132,7 +132,11 @@ self.__precacheManifest = [
     "url": "/static/media/testimonials-4.eed3257a.jpg"
   },
   {
-    "revision": "d83197f26c8117eb2c4c98dcf6a54bf7",
+    "revision": "01738ac4183845eb631455bbabf2457c",
+    "url": "/static/media/lilach-home-1.01738ac4.jpg"
+  },
+  {
+    "revision": "125cddd98b1e0a3f95e67d85604412cc",
     "url": "/index.html"
   }
 ];
