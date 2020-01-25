@@ -31,4 +31,9 @@ export const images = {
   'feet': require('./images/feet.png'),
   'testimonials-1': require('./images/testimonials-1.jpg'),
   'testimonials-4': require('./images/testimonials-4.jpg'),
+  'lilach-home-1': require('./images/lilach-home-1.jpg'),
+  'foot-yellow': require('./images/foot-yellow.png'),
+  'foot-red': require('./images/foot-red.png'),
+  'foot-green': require('./images/foot-green.png'),
+  'foot-blue': require('./images/foot-blue.png'),
 }

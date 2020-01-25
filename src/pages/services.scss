@@ -78,5 +78,32 @@
     height: 1px;
     background: $color-blue-dark;
   }
+
+  .testimonials-link-container {
+    margin-left: 24px;
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+
+    .foot {
+      width: 24px;
+      margin-right: 4px;
+    }
+
+    .testimonials-link {
+      font-family: $font-secondary;
+      font-style: normal;
+      font-size: $font-size-medium;
+      margin-left: 12px;
+      letter-spacing: 1px;
+      text-decoration: none;
+      color: $color-blue-dark;
+      transition: color 0.5s ease;
+  
+      &:hover {
+        color: $color-red-dark;
+      }
+    }
+  }
 }
 

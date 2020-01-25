@@ -4,6 +4,7 @@ import { images } from '../images';
 import './../vars.scss';
 import './home.scss';
 import { CallToAction } from '../call-to-action';
+var classNames = require('classnames');
 
 var sections = require('./home.json');
 
@@ -13,6 +14,7 @@ export class Home extends React.Component {
     return (
       <>
         <div className="logo-home" onClick={() => window.location = '/'} />
+        {/* <img src={images['lilach-home-1']} alt='' className={classNames("home-image")} /> */}
         {sections.filter(section => !section.disabled).map((section, index) => (
           this.renderSectionLink(section, index)
         ))}
