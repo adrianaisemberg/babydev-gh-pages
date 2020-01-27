@@ -29,6 +29,8 @@
   @media (min-width: $min-desktop-width) {
     max-width: $column-width;
   }
+
+  display: inline-block;
 }
 
 h3 {

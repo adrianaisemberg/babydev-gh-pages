@@ -12,6 +12,7 @@ import { TheMethod } from './pages/the-method';
 import { InfantMassage } from './pages/infant-massage';
 import { Disclaimer } from './pages/disclaimer';
 import { TermsOfUse } from './pages/terms-of-use';
+import { ImageGallery } from './pages/imageGallery';
 
 export class Routes extends React.Component {
   render() {
@@ -29,6 +30,7 @@ export class Routes extends React.Component {
         <Route path='/infant-massage' component={InfantMassage} />
         <Route path='/disclaimer' component={Disclaimer} />
         <Route path='/terms-of-use' component={TermsOfUse} />
+        <Route path='/gallery' component={ImageGallery} />
       </Switch>
     )
   }
