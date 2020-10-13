@@ -56,3 +56,10 @@ form {
 #form-send {
   text-align: center;
 }
+
+.form-column {
+  @media (min-width: $min-desktop-width) {
+    max-width: $form-width;
+    display: block;
+  }
+}

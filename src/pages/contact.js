@@ -8,7 +8,7 @@ export class Contact extends React.Component {
   render() {
     window.scrollTo(0, 0)
     return (
-      <div className={classNames("content", "column")}>
+      <div className={classNames("content", "column", "form-column")}>
         <Title text="Contact" />
         <div className="contact-intro">
           <p >I’m here to help you gain or strengthen your parenting gut!</p>
