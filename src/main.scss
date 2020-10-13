@@ -27,7 +27,7 @@
 
 .column {
   @media (min-width: $min-desktop-width) {
-    max-width: $column-width;
+    // max-width: $column-width;
   }
 
   display: inline-block;
